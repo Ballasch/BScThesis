@@ -2,8 +2,8 @@
 ["biber thesis"] 1624671290 "thesis.bcf" "thesis.bbl" "thesis" 1624671336
   "thesis.bcf" 1624671335 101581 1eca14b398e1792896af7eb8c0fe7ba5 "pdflatex"
   (generated)
-  "thesis.blg"
   "thesis.bbl"
+  "thesis.blg"
 ["pdflatex"] 1624671319 "/mnt/c/Users/gozsc/documents/_uni/Bachelor/thesis/thesis.tex" "/mnt/c/Users/gozsc/documents/_uni/Bachelor/thesis/thesis.pdf" "thesis" 1624671336
   "/home/cihad/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/cihad/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
@@ -207,11 +207,11 @@
   "thesis.toc" 1624671335 1741 e183f67e075539238c03c4ec337902ae "pdflatex"
   "tudothesis.cls" 1586786170 3849 8f8c72f355ca865fa37c6453a29603c7 ""
   (generated)
-  "thesis.run.xml"
-  "thesis.log"
-  "/mnt/c/Users/gozsc/documents/_uni/Bachelor/thesis/thesis.log"
-  "thesis.bcf"
-  "thesis.aux"
-  "thesis.pdf"
   "thesis.toc"
+  "/mnt/c/Users/gozsc/documents/_uni/Bachelor/thesis/thesis.log"
+  "thesis.log"
+  "thesis.bcf"
+  "thesis.run.xml"
+  "thesis.pdf"
   "/mnt/c/Users/gozsc/documents/_uni/Bachelor/thesis/thesis.pdf"
+  "thesis.aux"
