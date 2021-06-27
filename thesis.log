@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  26 JUN 2021 18:34
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  27 JUN 2021 23:34
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/mnt/c/Users/Ballasch/Documents/_uni/bachelorarbeit/BScThesis/thesis.tex
@@ -428,64 +428,7 @@ braces):
 )
 Package polyglossia Info: Default language is latex.
 Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
-) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/polyglossia/gloss-german.ldf
-File: gloss-german.ldf polyglossia: module for german
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Module polyglossia Info: Language data for german
-(polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            loader	loadhyph-de-1901.tex on input line 10
-Module polyglossia Info: Language german was not yet loaded; created with id 2 on input line 10
-Package polyglossia Info: Option: German, spelling=new.
-Package polyglossia Info: Option: German, script=latin.
-Package polyglossia Info: Option: German, variant=german.
-Package polyglossia Info: Option: German, variant=german.
-Package polyglossia Info: Option: German, spelling=new.
-Package polyglossia Info: Option: German, script=latin.
- (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/polyglossia/babelsh.def
-File: babelsh.def 2019/09/30 Babel common definitions for shorthands
- Taken verbatim from babel files (2019/09/27 v3.34)
-)
-Package polyglossia Info: Making " an active character on input line 177.
-)
-Package polyglossia Info: Default language is german.
- (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
 File: gloss-english.ldf polyglossia: module for english
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -505,22 +448,6 @@ braces):
 >  {latex/babelname}  =>  {latex}
 >  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/script}  =>  {latin}
 >  {english/lcscript}  =>  {latin}
 >  {english/scripttag}  =>  {}
@@ -538,7 +465,9 @@ braces):
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Package polyglossia Info: Option: English, variant=american.
-) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
+)
+Package polyglossia Info: Default language is english.
+ (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@reset=\count282
 \csq@gtype=\count283
@@ -1032,7 +961,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip87
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language3
+\blx@langwohyphens=\language2
 \c@mincomprange=\count365
 \c@maxcomprange=\count366
 \c@mincompwidth=\count367
@@ -1270,23 +1199,15 @@ Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
  (./thesis.aux
-LaTeX Info: Redefining \rmfamily on input line 26.
-LaTeX Info: Redefining \sffamily on input line 26.
-LaTeX Info: Redefining \ttfamily on input line 26.
-Module polyglossia Info: Language data for ngerman
-(polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            loader	loadhyph-de-1996.tex on input line 26
-Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 on input line 26
-LaTeX Info: Redefining \rmfamily on input line 34.
-LaTeX Info: Redefining \sffamily on input line 34.
-LaTeX Info: Redefining \ttfamily on input line 34.
-LaTeX Info: Redefining \rmfamily on input line 42.
-LaTeX Info: Redefining \sffamily on input line 42.
-LaTeX Info: Redefining \ttfamily on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 33.
+LaTeX Info: Redefining \sffamily on input line 33.
+LaTeX Info: Redefining \ttfamily on input line 33.
+LaTeX Info: Redefining \rmfamily on input line 41.
+LaTeX Info: Redefining \sffamily on input line 41.
+LaTeX Info: Redefining \ttfamily on input line 41.
 )
 \openout1 = thesis.aux
 
@@ -1310,9 +1231,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
-Package scrbase Info: activating german \contentsname on input line 147.
-Package scrbase Info: activating german \listfigurename on input line 147.
-Package scrbase Info: activating german \listtablename on input line 147.
+Package scrbase Info: activating english \contentsname on input line 147.
+Package scrbase Info: activating english \listfigurename on input line 147.
+Package scrbase Info: activating english \listtablename on input line 147.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count458
@@ -1408,24 +1329,6 @@ Package biblatex Info: ... file 'english.lbx' found.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 ))
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
- (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
- (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 561
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
- (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 561
-)
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 19
-)
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1461,7 +1364,6 @@ LaTeX Info: Redefining \nameref on input line 147.
 LaTeX Info: Redefining \rmfamily on input line 147.
 LaTeX Info: Redefining \sffamily on input line 147.
 LaTeX Info: Redefining \ttfamily on input line 147.
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 147
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LatinModernMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1540,7 +1442,7 @@ LaTeX Info: Redefining \ttfamily on input line 11.
 
 ] (./content/01_einleitung.tex
 chapter 1.
-) (./content/02_struktur.tex [1
+) (./content/02_struktur.tex) (./content/03_grundlagen.tex [1
 
 
 
@@ -1551,33 +1453,38 @@ chapter 2.
 ]
 chapter 3.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 17.28183pt on input line 4.
+(Font)              scaled to size 17.28183pt on input line 6.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 17.27815pt on input line 4.
+(Font)              scaled to size 17.27815pt on input line 6.
+<Plots/atlasSCHEMA.PNG, id=88, 986.9372pt x 569.12625pt>
+File: Plots/atlasSCHEMA.PNG Graphic file (type png)
+<use Plots/atlasSCHEMA.PNG>
+Package luatex.def Info: Plots/atlasSCHEMA.PNG  used on input line 25.
+(luatex.def)             Requested size: 354.91733pt x 204.66818pt.
 [3
 
-]
+] [4<./Plots/atlasSCHEMA.PNG>]
 chapter 4.
-[4
-
-]
-chapter 5.
 [5
 
 ]
-chapter 6.
+chapter 5.
 [6
 
 ]
-chapter 7.
-) (./content/03_grundlagen.tex) (./content/04_figs_tabs.tex) (./content/a_anhang.tex) [7
+chapter 6.
+[7
 
 ]
+chapter 7.
+) (./content/04_figs_tabs.tex) (./content/a_anhang.tex) [8
 
-LaTeX Warning: Empty bibliography on input line 171.
+]
+chapter without number
+[9
 
-[8
 
+] [10
 
 
 ] (./content/eid_versicherung.tex)
@@ -1599,22 +1506,6 @@ braces):
 >  {latex/babelname}  =>  {latex}
 >  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/script}  =>  {latin}
 >  {english/lcscript}  =>  {latin}
 >  {english/scripttag}  =>  {}
@@ -1632,39 +1523,39 @@ braces):
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
  (./thesis.aux
-LaTeX Info: Redefining \rmfamily on input line 26.
-LaTeX Info: Redefining \sffamily on input line 26.
-LaTeX Info: Redefining \ttfamily on input line 26.
-LaTeX Info: Redefining \rmfamily on input line 34.
-LaTeX Info: Redefining \sffamily on input line 34.
-LaTeX Info: Redefining \ttfamily on input line 34.
-LaTeX Info: Redefining \rmfamily on input line 42.
-LaTeX Info: Redefining \sffamily on input line 42.
-LaTeX Info: Redefining \ttfamily on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 33.
+LaTeX Info: Redefining \sffamily on input line 33.
+LaTeX Info: Redefining \ttfamily on input line 33.
+LaTeX Info: Redefining \rmfamily on input line 41.
+LaTeX Info: Redefining \sffamily on input line 41.
+LaTeX Info: Redefining \ttfamily on input line 41.
 )
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 69123A1BC355739CBF494B94D38AD77B;19624.
+(rerunfilecheck)             Checksum: CE2AB501B4FDA1F8AF2FB05C6EA57CBE;21091.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: 576FB8E9E3BCFA0515349CBD005D382C;3256.
+(rerunfilecheck)             Checksum: 63A29CBC9718FD8C26F28313F3AB2B87;3361.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37558 strings out of 478388
- 100000,1977958 words of node,token memory allocated
- 648 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 80 glue_spec, 9 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 2:926,3:358,4:224,5:174,6:115,7:3004,8:49,9:558,10:10,11:250
- 56394 multiletter control sequences out of 65536+600000
- 107 fonts using 31551251 bytes
- 122i,20n,118p,10663b,3484s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (12 pages, 46975 bytes).
+ 37505 strings out of 478388
+ 100000,2848258 words of node,token memory allocated
+ 676 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 12 attribute, 82 glue_spec, 12 attribute_list, 1 write, 3 pdf_action nodes
+   avail lists: 2:949,3:372,4:240,5:174,6:119,7:3702,8:53,9:566,10:10,11:287
+ 56365 multiletter control sequences out of 65536+600000
+ 150 fonts using 44005235 bytes
+ 122i,20n,118p,10663b,3548s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on thesis.pdf (14 pages, 852995 bytes).
 
-PDF statistics: 219 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 131072)
- 169 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 279 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 131072)
+ 177 words of extra memory for PDF output out of 10000 (max. 100000000)
 
