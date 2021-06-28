@@ -1,9 +1,9 @@
 \chapter{Single top quark production with a photon in the Standard Model}
 \section{A brief overview of the standard model}
-\section{The \texorpdfstring{$tq\gamma$}{TEXT} process in the standard model}
+\section{The \texorpdfstring{$tq\gamma$}{tqGamma} process in the standard model}
 
 
-\chapter{Measurement of \texorpdfstring{$tq\gamma$}{TEXT}}
+\chapter{Measurement of \texorpdfstring{$tq\gamma$}{tqGamma}}
 
 
 
@@ -17,10 +17,12 @@ The LHC consists of four extensive experiments: the ALICE, the LHCb, the CMS and
 
 The inner detector tracks charged particles just after the collision. It consists of three different systems of sensors in a magnetic field parallel to the beam. These sensors are the pixel detector, the semiconductor tracker that works with silicon strips and a transition radiation tracker to track particles with gas-filled tubes. 
 
-The calorimeters detect showers produced by electrons, photons and hadrons. 
+In the EM calorimeter, metal layers (tungsten, copper or lead) absorb incoming particles and convert them into lower-energy particles called a shower. The calorimeters detect "showers" produced by electrons, photons and hadrons. 
+Hadrons do not deposit all of their energy into the EM calorimeter; they get absorbed by steel layers in the hadronic calorimeter. 
+Plastic scintillating tiles then produce photons that get converted into an electric current. 
 
-The muon spectrometer measure trajectories of muons with the help of a magnetic field. The spectrometer detects muons in the range of $\bigl|\nu\bigr| = 2.7$. 
-Monitured drift tubes are used up to $\nu = 2.0$ and cathode strip chambers are used for higher pseudorapidities.  
+The muon spectrometer measure trajectories of muons with the help of a magnetic field. The spectrometer detects muons in the range of $\bigl|\eta\bigr| = 2.7$. 
+Monitored drift tubes measure for pseudorapidities up to $\eta = 2.0$ and cathode strip chambers fill higher pseudorapidities.  
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{Plots/atlasSCHEMA.PNG}
@@ -31,9 +33,49 @@ Monitured drift tubes are used up to $\nu = 2.0$ and cathode strip chambers are 
 
 
 \section{Object Reconstruction at the ATLAS experiment}
+
+\subsection{Reconstruction of photons}
+
+
+\subsection{Reconstruction of leptons}
+\subsection{Jets}
+
+Jets are clusters of mostly mesons that result from the separation of two quarks. They are reconstructed with the help of the anti-$k_t$ algorithm with a radius parameter of R = 0.4 \cite{anti_k_t}. 
+This algorithm reconstructs jets by first identifying the particle source via the jet energy scale. It is then required that the jet has a transverse momentum of $p_T > 25 \si{\giga\electronvolt}$ and $\bigl|\eta\bigr| < 4.5$. 
+
+Detector noise can lead to the misidentification of a jet. The nature of these misidentified jets has been studied thoroughly \cite{70} and a so-called "jet cleaning procedure" is used to tag them. 
+Any event containing at least one "bad" jet is removed. 
+
+
+
 \section{Background contributions from similar processes}
 
 
+The criteria for event selection \ref{sec:eventselect} allow various different processes besides $tq\gamma$. These events contribute to the background noise. Any process that has similar decay products as tqGamma are background. 
+The process $t\bar{t}\gamma$ holds the most similar decay product as it's products can be identical to the products of $tq\gamma$. Following processes is the production of a $W$-boson with jets, a $Z$-boson with jets and $t\bar{t}$. 
+Table \ref{tab:background} lists these and the rest of the processes contributing to the background.
+\begin{table}
+    \centering
+    \begin{tabular}{c c c}
+        \toprule
+        {} & Process \\
+        \midrule
+        1 & $tq\gamma$\\[.1cm]
+        2 & $t\bar{t}\gamma$\\[.1cm]
+        3 & $W\gamma + jets$\\[.1cm]
+        4 & $Z\gamma + jets$\\[.1cm]
+        5 & $t\bar{t}$\\[.1cm]
+        6 & $s\-chan$\\[.1cm]
+        7 & $t W$\\[.1cm]
+        8 & $t\-chan$\\[.1cm]
+        9 & $VV$\\[.1cm]
+        10& $W+jets$\\[.1cm]
+        11& $Z+jets$\\[.1cm]
+        \bottomrule
+    \end{tabular}
+    \caption{List of SM processes that contribute to background noise in the measurement of $tq\gamma$.}
+    \label{tab:background}
+\end{table}
 
 
 
@@ -41,12 +83,12 @@ Monitured drift tubes are used up to $\nu = 2.0$ and cathode strip chambers are 
 \section{Generation of Monte Carlo samples}
 \section{Event selection}
 \chapter{The Neural Network used for signal-background classification}
-\section{How a neural network works}
-\section{The NN architecture}
+\section{Short introduction to neural networks}
+\section{The neural network architecture}
 \section{Input features for the neural network}
-\section{NN Efficiancy and distribution of the NN output}
-\chapter{Analysis of the effects of different event feautures on the neural network output}
-\section{Correlations of input feautures with the NN output}
+\section{Performance and distribution of the NN output}
+\chapter{Analysis of the effects of different event features on the neural network output}
+\section{Correlations of input features with the NN output}
 \section{Changes in the NN output distribution for different photon \texorpdfstring{$p_T$}{TEXT} and fjet+photon energy bins}
 \section{?}
 \chapter{Conclusions}

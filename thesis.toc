@@ -24,34 +24,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Object Reconstruction at the ATLAS experiment}{4}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Background contributions from similar processes}{4}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.1}Reconstruction of photons}{4}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Monte Carlo samples and event selection}{5}{chapter.4}%
+\contentsline {subsection}{\numberline {3.2.2}Reconstruction of leptons}{4}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Generation of Monte Carlo samples}{5}{section.4.1}%
+\contentsline {subsection}{\numberline {3.2.3}Jets}{4}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Event selection}{5}{section.4.2}%
+\contentsline {section}{\numberline {3.3}Background contributions from similar processes}{5}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}The Neural Network used for signal-background classification}{6}{chapter.5}%
+\contentsline {chapter}{\numberline {4}Monte Carlo samples and event selection}{6}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}How a neural network works}{6}{section.5.1}%
+\contentsline {section}{\numberline {4.1}Generation of Monte Carlo samples}{6}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}The NN architecture}{6}{section.5.2}%
+\contentsline {section}{\numberline {4.2}Event selection}{6}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Input features for the neural network}{6}{section.5.3}%
+\contentsline {chapter}{\numberline {5}The Neural Network used for signal-background classification}{7}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}NN Efficiancy and distribution of the NN output}{6}{section.5.4}%
+\contentsline {section}{\numberline {5.1}Short introduction to neural networks}{7}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Analysis of the effects of different event feautures on the neural network output}{7}{chapter.6}%
+\contentsline {section}{\numberline {5.2}The neural network architecture}{7}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Correlations of input feautures with the NN output}{7}{section.6.1}%
+\contentsline {section}{\numberline {5.3}Input features for the neural network}{7}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Changes in the NN output distribution for different photon $p_T$ and fjet+photon energy bins}{7}{section.6.2}%
+\contentsline {section}{\numberline {5.4}Performance and distribution of the NN output}{7}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}?}{7}{section.6.3}%
+\contentsline {chapter}{\numberline {6}Analysis of the effects of different event features on the neural network output}{8}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions}{8}{chapter.7}%
+\contentsline {section}{\numberline {6.1}Correlations of input features with the NN output}{8}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{9}{chapter*.5}%
+\contentsline {section}{\numberline {6.2}Changes in the NN output distribution for different photon $p_T$ and fjet+photon energy bins}{8}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}?}{8}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusions}{9}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{10}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
