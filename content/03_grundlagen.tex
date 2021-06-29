@@ -4,11 +4,16 @@
 
 
 \chapter{Measurement of \texorpdfstring{$tq\gamma$}{tqGamma}}
-
+\textbf{TO DOS:}
+\begin{enumerate}
+    \item Define pseudorapidity in \ref{sec:atlas}
+    \item \ref{sec:reconlepton} and \ref{sec:reconphoton} missing
+    \item Cite anti-$k_t$ algorithm and study of misidentified jets in \ref{sec:jets}
+\end{enumerate}
 
 
 \section{The ATLAS Experiment}
-
+\label{sec:atlas}
 The European Organization for Nuclear Research, known as CERN, located in Geneva, has various experiments studying elementary particles through the collision of heavy ions and protons. 
 The Large Hadron Collider (LHC), the particle accelerator of CERN, has a circumference of $27 \si{\kilo\metre}$ and can collide particles with an energy of up to $13.6 \si{\tera\electronvolt}$. 
 
@@ -35,20 +40,26 @@ Monitored drift tubes measure for pseudorapidities up to $\eta = 2.0$ and cathod
 \section{Object Reconstruction at the ATLAS experiment}
 
 \subsection{Reconstruction of photons}
-
-
+\label{sec:reconphoton}
+?
 \subsection{Reconstruction of leptons}
+\label{sec:reconlepton}
+?
 \subsection{Jets}
-
-Jets are clusters of mostly mesons that result from the separation of two quarks. They are reconstructed with the help of the anti-$k_t$ algorithm with a radius parameter of R = 0.4 \cite{anti_k_t}. 
+\label{sec:jets}
+Jets are clusters of mostly mesons that result from the separation of two quarks. They are reconstructed with the help of the anti-$k_t$ algorithm \cite{anti_k_t} with a radius parameter of R = 0.4. 
 This algorithm reconstructs jets by first identifying the particle source via the jet energy scale. It is then required that the jet has a transverse momentum of $p_T > 25 \si{\giga\electronvolt}$ and $\bigl|\eta\bigr| < 4.5$. 
 
 Detector noise can lead to the misidentification of a jet. The nature of these misidentified jets has been studied thoroughly \cite{70} and a so-called "jet cleaning procedure" is used to tag them. 
 Any event containing at least one "bad" jet is removed. 
 
+\subsection{Missing transverse momentum \texorpdfstring{$E_T^{\text{miss}}$}{}}
 
+If all particle products are considered, there should be no magnitude for the sum of the transverse momentum $p_T$ of all particles. 
+Any measured magnitude is therefore attributed to an unmeasured particle. The missing transverse momentum $E_T^{\text{miss}}$ is consequently defined as the negative of this sum and assinged to a neutrino. 
 
 \section{Background contributions from similar processes}
+
 
 
 The criteria for event selection \ref{sec:eventselect} allow various different processes besides $tq\gamma$. These events contribute to the background noise. Any process that has similar decay products as tqGamma are background. 

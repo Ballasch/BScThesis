@@ -514,6 +514,13 @@ INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbo
 INPUT ./Plots/atlasSCHEMA.PNG
 INPUT ./Plots/atlasSCHEMA.PNG
 INPUT ./Plots/atlasSCHEMA.PNG
+INPUT /home/cihad/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /home/cihad/.local/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
