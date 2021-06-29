@@ -50,11 +50,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}Performance and distribution of the NN output}{7}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Analysis of the effects of different event features on the neural network output}{8}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Differnetial analysis of the NN output}{8}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Correlations of input features with the NN output}{8}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Changes in the NN output distribution for different photon $p_T$ and fjet+photon energy bins}{8}{section.6.2}%
+\contentsline {section}{\numberline {6.2}NN output distribution dependence on photon $p_T$ and fjet+photon energy}{8}{section.6.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}?}{8}{section.6.3}%
 \defcounter {refsection}{0}\relax 
