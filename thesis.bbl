@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{anyt/global//global/global}
     \entry{singletop2}{article}{}
       \name{author}{602}{}{%
         {{hash=96796035bdde48f0f6780da927471d3e}{%
@@ -3047,6 +3047,7 @@
       \strng{authorbibnamehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
       \strng{authornamehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
       \strng{authorfullhash}{270b5e9d826dd11acf28bcc28957aa73}
+      \field{labelalpha}{Aal+09}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -5602,6 +5603,7 @@
       \strng{authorbibnamehash}{113134f02ce0efb9d3d2dd9486e585a8}
       \strng{authornamehash}{113134f02ce0efb9d3d2dd9486e585a8}
       \strng{authorfullhash}{ebad4bce2b5d5290d7ebcd7f20277fb0}
+      \field{labelalpha}{Aba+09}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -5638,6 +5640,7 @@
       \strng{authorbibnamehash}{b7295d49f625e7cbd4dd272953c70b7b}
       \strng{authornamehash}{b7295d49f625e7cbd4dd272953c70b7b}
       \strng{authorfullhash}{b7295d49f625e7cbd4dd272953c70b7b}
+      \field{labelalpha}{Bur16}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -15930,6 +15933,7 @@
       \strng{authorbibnamehash}{9c6501d5b7aeaf4e5980c396d1e1d9d7}
       \strng{authornamehash}{9c6501d5b7aeaf4e5980c396d1e1d9d7}
       \strng{authorfullhash}{8d682e80739270920bdf983d515c31fd}
+      \field{labelalpha}{Col+08}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -15967,6 +15971,7 @@
       \strng{authorbibnamehash}{2ea59163fcd2e1776a7e66dd9c3b0efa}
       \strng{authornamehash}{2ea59163fcd2e1776a7e66dd9c3b0efa}
       \strng{authorfullhash}{2ea59163fcd2e1776a7e66dd9c3b0efa}
+      \field{labelalpha}{Gro09}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -27520,6 +27525,7 @@
       \strng{authorbibnamehash}{2599645aa1bba2943bd06a9dc52f06e5}
       \strng{authornamehash}{2599645aa1bba2943bd06a9dc52f06e5}
       \strng{authorfullhash}{75e067de5ee68f6aa7752e0ba0183901}
+      \field{labelalpha}{Sir+18}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -27559,6 +27565,7 @@
       \strng{authorbibnamehash}{3252689ea2c95188fe632e638cbb4321}
       \strng{authornamehash}{3252689ea2c95188fe632e638cbb4321}
       \strng{authorfullhash}{3252689ea2c95188fe632e638cbb4321}
+      \field{labelalpha}{Zyl+20}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}

@@ -344,12 +344,12 @@ INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.d
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
-INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
+INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx
@@ -481,6 +481,8 @@ INPUT ./thesis.toc
 INPUT ./thesis.toc
 INPUT ./thesis.toc
 OUTPUT thesis.toc
+INPUT ./content/todo.tex
+INPUT ./content/todo.tex
 INPUT ./content/01_introduction.tex
 INPUT ./content/01_introduction.tex
 INPUT ./content/02_sm.tex

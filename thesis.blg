@@ -1,22 +1,22 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[65] biber:340> INFO - === Fri Jul  2, 2021, 03:42:00
+[66] biber:340> INFO - === Fri Jul  2, 2021, 04:04:37
 [79] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[135] Biber.pm:952> INFO - Found 9 citekeys in bib section 0
-[146] Biber.pm:4340> INFO - Processing section 0
-[155] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[134] Biber.pm:952> INFO - Found 9 citekeys in bib section 0
+[145] Biber.pm:4340> INFO - Processing section 0
+[153] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
 [168] bibtex.pm:1689> INFO - LaTeX decoding ...
-[793] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[2927] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'PhysRevLett.121.221802' is not an integer - this will probably not sort properly.
-[3405] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop1' is not an integer - this will probably not sort properly.
-[3983] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop2' is not an integer - this will probably not sort properly.
-[3986] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
-[6009] Utils.pm:395> WARN - I didn't find a database entry for 'anti_k_t' (section 0)
-[6009] Utils.pm:395> WARN - I didn't find a database entry for '70' (section 0)
-[6179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6179] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[6179] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[6312] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[33614] bbl.pm:757> INFO - Output to thesis.bbl
-[33618] Biber.pm:128> INFO - WARNINGS: 6
+[790] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[2883] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'PhysRevLett.121.221802' is not an integer - this will probably not sort properly.
+[3328] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop1' is not an integer - this will probably not sort properly.
+[3870] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop2' is not an integer - this will probably not sort properly.
+[3873] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
+[5755] Utils.pm:395> WARN - I didn't find a database entry for 'anti_k_t' (section 0)
+[5756] Utils.pm:395> WARN - I didn't find a database entry for '70' (section 0)
+[5977] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5977] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5977] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[5977] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[6109] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[33257] bbl.pm:757> INFO - Output to thesis.bbl
+[33262] Biber.pm:128> INFO - WARNINGS: 6
