@@ -40,26 +40,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Generation of Monte Carlo samples}{10}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Event selection}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Event selection}{11}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}The Neural Network used for signal-background classification}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {6}The Neural Network used for signal-background classification}{12}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Short introduction to neural networks}{11}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Short introduction to neural networks}{12}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}The neural network architecture}{11}{section.6.2}%
+\contentsline {section}{\numberline {6.2}The neural network architecture}{12}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Input features for the neural network}{11}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Input features for the neural network}{12}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Performance and distribution of the NN output}{11}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Performance and distribution of the NN output}{12}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Differnetial analysis of the NN output}{12}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Differnetial analysis of the NN output}{13}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Correlations of input features with the NN output}{12}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Correlations of input features with the NN output}{13}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}NN output distribution dependence on photon $p_T$ and fjet+photon energy}{12}{section.7.2}%
+\contentsline {section}{\numberline {7.2}NN output distribution dependence on photon $p_T$ and fjet+photon energy}{13}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusions}{13}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Conclusions}{14}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{14}{chapter*.8}%
+\contentsline {chapter}{\nonumberline Bibliography}{15}{chapter*.9}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

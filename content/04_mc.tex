@@ -1,3 +1,50 @@
 \chapter{Monte Carlo samples and event selection}
+
+
 \section{Generation of Monte Carlo samples}
+
+The framework $MadGraph5\_aMC@NLO$ is used for Monte Carlo (MC) simulations of the considered $tq\gamma$ process. $MadGraph5$ is a matrix element generator that allows the interfacing of different packages for further simulation. 
+The simulated events are generated at next-to-leading order (NLO) at the $t$-channel of single top production. The generator is interfaced to the package $Pythia$ $v8.240$, which provides parton showers. 
+The $MadSpin$ and $EvtGEN$ $v1.6.0$ packages give decay simulations of the top and bottom quark, respectively. Here, only leptonic decays of the top quark are considered.
+
+Moving on to background processes, the $t\bar{t}$ process is modelled at leading order (LO) also using $MadGraph5\_aMC@NLO$ $v2.3.3$ interfaced to $Pythia\,\,v8.212$. 
+Simulation of $W\gamma$+jets and $Z\gamma$+jets events are produced at NLO using the $Shepra$ $v2.2.2$ and $Shepra$ $v2.2.4$ packages. For the $t\bar{t}$ process and $t$-, $s$-, $tW$-channels 
+$Powheg$-$Box$ is used where $Pythia$ $v8.230$ is again used as the showering program. The modeling here is performed in NLO in QCD. 
+
+The table \ref{tab:eventgen} gives a summary of the generated samples and their generators. In addition, the sample IDs (DSID) is also provided in the table.
+
+\begin{table}
+    \centering
+    \begin{tabular}{c|c c}
+        \toprule
+        Process & Generator & DSID\\
+        \midrule
+        $tq\gamma$&$MadGraph5\_aMC@NLO$ + $Pythia8$&$412147$\\[.1cm]
+        $t\bar{t}\gamma$&$MadGraph5$ + $Pythia8$&$410389$\\[.1cm]
+        $W\gamma + jets$&$Sherpa$ $2.2.2$&$3645[21\text{-}35]$\\[.1cm]
+        $Z\gamma + jets$ &$Sherpa$ $2.2.4$&$3661[40\text{-}54]$\\[.1cm]
+        $t\bar{t}$ &$Powheg$ + $Pythia8$&$410470$\\[.1cm]
+        single top&$Powheg$ + $Pythia8$&$41065[8\text{-}9]\:,\: 41064[4\text{-}7]$\\[.1cm]
+        $W+jets$& $Sherpa$ $2.2.1$&$3641[56\text{-}97]$\\[.1cm]
+        $Z+jets$ &$Sherpa$ $2.2.1$&$3641[00\text{-}41]$\\[.1cm]
+        Diboson &$Sherpa$ $2.2.2$&$3633[55\text{-}60]\:,\:363489\:,\:36425[0,3\text{-}5]$\\
+        \bottomrule
+    \end{tabular}
+    \caption{List of generated samples alongside their generators and DSID.}
+    \label{tab:eventgen}
+\end{table}
 \section{Event selection}
+
+The selection criteria for events must hold the necessary conditions for a $tq\gamma$-process. It also needs to have enough restrictions to reduce background contributions as much as possible. 
+Signal events have precisely one lepton, at least one photon and one $b$-tagged jet in the final state. The lepton should have a transverse momentum higher than $20 \,\si{\giga\electronvolt}$, the photons momentum higher than $27\,\si{\giga\electronvolt}$ and 
+the $b$-tagged jet has to pass the $DL1r$-algorithm with a $70\%$ working point.\\
+Additionally, the missing transverse energy $E_T^{miss}$ ought to be above $30 \,\si{\giga\electronvolt}$ to account for the neutrino in the decay mode. 
+Finally, to reduce leading background contributions from the $Z \rightarrow ee(\rightarrow \gamma)$ process, the invariant mass of the leading photon and an electron candidate $m_{e\gamma}$ is set to be in the range $80 \,\si{\giga\electronvolt} < m_{e\gamma} < 110 \,\si{\giga\electronvolt}$.
+Altogether, this makes up the following requirements for selected events:
+\begin{enumerate}
+    \item At least one photon $\gamma$ with $p_T > 20 \,\si{\giga\electronvolt}$
+    \item Exactly one lepton with $p_T >27\,\si{\giga\electronvolt}$
+    \item $E_T^{miss} > 30 \,\si{\giga\electronvolt}$
+    \item Exactly one $b$-tagged jet passing $70\%$ working point (WP) of the $DL1r$-algorithm. 
+    \item Invariant mass of leading photon and electron candidate between values $80 \,\si{\giga\electronvolt} < m_{e\gamma} < 110 \,\si{\giga\electronvolt}$  
+\end{enumerate}
