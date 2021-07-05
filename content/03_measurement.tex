@@ -6,7 +6,6 @@
 
 \begin{enumerate}
     \item Explain why $t\bar{t}\gamma$ is close to $tq\gamma$. Mit crossection
-    \item Anit $k_t$ besser erklären
     \item Reconstruction of leptons
     \item Reconstruction of photons
 \end{enumerate}
@@ -27,8 +26,8 @@ It consists of three different systems of sensors in a magnetic field parallel t
 These sensors are the pixel detector, the semiconductor tracker which works with silicone strips and a transition radiation tracker to track particles with gas-filled tubes. 
 
 In the EM calorimeter, metal layers (tungsten, copper or lead) absorb incoming particles and convert them into lower-energy particles called a shower. The calorimeters detect "showers" produced by electrons (and positrons), photons and hadrons. The barrel part of this calorimeter covers the pseudorapidity range $|\eta| < = 1.475$ and the end-cap components cover $1.375 <|\eta|< 3.2$.
-Hadrons do not deposit all of their energy into the EM calorimeter; they get absorbed by steel layers in the hadronic calorimeter. 
-Plastic scintillating tiles then produce photons that get converted into an electric current. The scintillating tiles cover the region $|\eta| < 1.7$. The region $1.5 < |\eta| < 4.9$ is then used by the cooper + liquid argon and tungsten + liquid argon calorimeter.
+Hadrons do not deposit all of their energy into the EM calorimeter; their showers get absorbed by steel layers in the hadronic calorimeter behind the EM calorimeter. 
+Here, plastic scintillating tiles produce photons that get converted into an electric current. The scintillating tiles cover the region $|\eta| < 1.7$. The region $1.5 < |\eta| < 4.9$ is then used by the cooper + liquid argon and tungsten + liquid argon calorimeter.
 
 The muon spectrometer measures trajectories of muons with the help of a magnetic field. The spectrometer detects muons in the range of $\bigl|\eta\bigr| > 2.7$. 
 Monitored drift tubes measure pseudorapidities up to $|\eta| = 2.0$ and cathode strip chambers cover higher pseudorapidities.  
@@ -51,11 +50,11 @@ Monitored drift tubes measure pseudorapidities up to $|\eta| = 2.0$ and cathode 
 ?
 \subsection{Jets}
 \label{sec:jets}
-Jets are reconstructed from clusters of energy depositions of mostly mesons and fewer baryons that result from the separation of two quarks (color confinement) (\textbf{NOTE: }Jets sind tatsächlich ausschließlich Schauer aus quarks. EM-Schauer sind keine Jets). They are reconstructed with the help of the anti-$k_t$ algorithm \cite{anti_k_t} with a radius parameter of $R = 0.4$. 
-This algorithm reconstructs jets by first identifying the particle source via the jet energy scale. It is then required that the jet has a transverse momentum of $p_T > 25 \,\si{\giga\electronvolt}$ and $\bigl|\eta\bigr| < 4.5$. 
+Jets are showers of mostly mesons and fewer baryons in the hadronic calorimeter that result from the production of high energy quarks (color confinement) (\textbf{NOTE: }Jets sind tatsächlich ausschließlich Schauer aus quarks. EM-Schauer sind keine Jets). They deposit some of their energy in calorimeter cells which then are combined into clusters by the anti-$k_t$ algorithm \cite{anti_k_t} with a radius parameter of $R = 0.4$. 
+It is then required that the cluster has a transverse momentum of $p_T > 25 \,\si{\giga\electronvolt}$ and $\bigl|\eta\bigr| < 4.5$. If these conditions are met, the cluster is identified to be a jet.
 
-Detector noise can lead to the misidentification of a jet. The nature of these misidentified jets has been studied thoroughly \cite{70} and a so-called "jet cleaning procedure" is used to tag them. 
-Any event containing at least one "bad" jet is removed. 
+Detector noise can lead to the misidentification of a jet. The nature of these misidentified jets has been studied thoroughly and a so-called "jet cleaning procedure" is used to tag them. 
+Any event containing at least one "bad" jet is removed by the algorithm. 
 
 \subsection{Missing transverse momentum \texorpdfstring{$E_T^{\text{miss}}$}{}}
 

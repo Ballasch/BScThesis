@@ -15957,6 +15957,58 @@
       \verb https://doi.org/10.1088/1748-0221/3/08/s08003
       \endverb
     \endentry
+    \entry{anti_k_t}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d38166452f9df43fc09b4da37680b482}{%
+           family={Cacciari},
+           familyi={C\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cdd9546b48e743df2da267f924c11cb4}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={Gavin\bibnamedelima P},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4f0b7ca3806264505163f88e90956033}{%
+           family={Soyez},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{fullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{bibnamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{authorbibnamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{authornamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \field{labelalpha}{CSS08}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{4}
+      \field{number}{04}
+      \field{title}{The anti-ktjet clustering algorithm}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{pages}{063\bibrangedash 063}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2008/04/063
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1126-6708/2008/04/063
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1126-6708/2008/04/063
+      \endverb
+    \endentry
     \entry{singletop3}{misc}{}
       \name{author}{1}{}{%
         {{hash=2ea59163fcd2e1776a7e66dd9c3b0efa}{%
@@ -27582,8 +27634,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{70}
-  \missing{anti_k_t}
 \endrefsection
 \endinput
 
