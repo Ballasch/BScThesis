@@ -5,7 +5,6 @@
 \label{chap:measurement}
 
 \begin{enumerate}
-    \item Koordinaten definieren und anwenden
     \item Explain why $t\bar{t}\gamma$ is close to $tq\gamma$. Mit crossection
     \item Anit $k_t$ besser erklären
     \item Reconstruction of leptons
@@ -17,16 +16,22 @@ The European Organization for Nuclear Research, known as CERN, located in Geneva
 The Large Hadron Collider (LHC), the largest particle accelerator of CERN, has a circumference of $27 \,\si{\kilo\metre}$ and can collide particles with a center of mass energy of up to $\sqrt{s} = 13.6 \,\si{\tera\electronvolt}$. 
 
 
-The LHC consists of four extensive experiments: the ALICE, the LHCb, the CMS and the ATLAS experiments. The research in this thesis is done with the help of the largest of these experiments, the ATLAS experiment. Figure 1 visualizes the structure of the ATLAS detector.  The detector is built symmetrically around the particle beam and can be divided into three subdetectors.
+The LHC consists of four extensive experiments: the ALICE, the LHCb, the CMS and the ATLAS experiments. The research in this thesis is done with the help of the largest of these experiments, the ATLAS experiment. Figure 1 visualizes the structure of the ATLAS detector. 
+A coordinate system needs to be defined in order to discuss the construction of the experiment. Three different coordinates are used to describe positions inside the experiment: First, the azimuthal angle $\phi$, which ranges from $0$ to $2\pi$. 
+Next, the pseudorapidity $\eta$, which is defined to be $\eta = -\ln(\tan \theta)$, where $\theta$ is the angle to the beam axis. The smaller $\theta$ is, the higher the pseudorapidity. And lastly, a distance $\Delta R$, which can be defined in the $\phi$-$\theta$-plane as $\Delta R = \sqrt{(\Delta \phi)^2 +(\Delta \eta)}$.
 
-The inner detector tracks charged particles just after the collision. It consists of three different systems of sensors in a magnetic field parallel to the beam. These sensors are the pixel detector, the semiconductor tracker which works with silicon strips and a transition radiation tracker to track particles with gas-filled tubes. 
+The ATLAS detector is built symmetrically around the particle beam and can be divided into three subdetectors:
 
-In the EM calorimeter, metal layers (tungsten, copper or lead) absorb incoming particles and convert them into lower-energy particles called a shower. The calorimeters detect "showers" produced by electrons (and positrons), photons and hadrons. 
+The inner detector tracks charged particles just after the collision. 
+It consists of three different systems of sensors in a magnetic field parallel to the beam. 
+These sensors are the pixel detector, the semiconductor tracker which works with silicone strips and a transition radiation tracker to track particles with gas-filled tubes. 
+
+In the EM calorimeter, metal layers (tungsten, copper or lead) absorb incoming particles and convert them into lower-energy particles called a shower. The calorimeters detect "showers" produced by electrons (and positrons), photons and hadrons. The barrel part of this calorimeter covers the pseudorapidity range $|\eta| < = 1.475$ and the end-cap components cover $1.375 <|\eta|< 3.2$.
 Hadrons do not deposit all of their energy into the EM calorimeter; they get absorbed by steel layers in the hadronic calorimeter. 
-Plastic scintillating tiles then produce photons that get converted into an electric current. 
+Plastic scintillating tiles then produce photons that get converted into an electric current. The scintillating tiles cover the region $|\eta| < 1.7$. The region $1.5 < |\eta| < 4.9$ is then used by the cooper + liquid argon and tungsten + liquid argon calorimeter.
 
 The muon spectrometer measures trajectories of muons with the help of a magnetic field. The spectrometer detects muons in the range of $\bigl|\eta\bigr| > 2.7$. 
-Monitored drift tubes measure for pseudorapidities up to $|\eta| = 2.0$ and cathode strip chambers cover higher pseudorapidities.  
+Monitored drift tubes measure pseudorapidities up to $|\eta| = 2.0$ and cathode strip chambers cover higher pseudorapidities.  
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{Plots/atlasSCHEMA.PNG}

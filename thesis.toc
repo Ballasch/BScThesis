@@ -28,9 +28,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Reconstruction of photons}{7}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Reconstruction of leptons}{7}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Reconstruction of leptons}{8}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Jets}{7}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Jets}{8}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}Missing transverse momentum $E_T^{\text {miss}}$}{8}{subsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
