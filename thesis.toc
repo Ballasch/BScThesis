@@ -32,9 +32,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Jets}{8}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Missing transverse momentum $E_T^{\text {miss}}$}{8}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.4}b-tagging}{8}{subsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Background contributions from similar processes}{8}{section.4.3}%
+\contentsline {subsection}{\numberline {4.2.5}Missing transverse momentum $E_T^{\text {miss}}$}{8}{subsection.4.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Background contributions from similar processes}{9}{section.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Monte Carlo samples and event selection}{10}{chapter.5}%
 \defcounter {refsection}{0}\relax 

@@ -19,6 +19,139 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{btag1}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{labelalpha}{17}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraalpha}{1}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2017-003}
+      \field{title}{{Identification of Jets Containing $b$-Hadrons with Recurrent Neural Networks at the ATLAS Experiment}}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2255226
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2255226
+      \endverb
+    \endentry
+    \entry{btag2}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{labelalpha}{17}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraalpha}{2}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2017-003}
+      \field{title}{{Identification of Jets Containing $b$-Hadrons with Recurrent Neural Networks at the ATLAS Experiment}}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2255226
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2255226
+      \endverb
+    \endentry
+    \entry{ttgamma}{article}{}
+      \name{author}{10}{}{%
+        {{hash=b0c40621433afa1602a7556db78c2a27}{%
+           family={Aaboud},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6ff2c6c5b44129d4cfb6389e75869ea6}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1c424a151dc0ac1b5dabeb624fcdc69f}{%
+           family={Abdinov},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b67532a542be432e5b35697399f95580}{%
+           family={Abeloos},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1291ecc48177f6e1bdc612065e42c733}{%
+           family={Abidi},
+           familyi={A\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=21eebd79b6eee7aae47b8b2cc22eb0d6}{%
+           family={AbouZeid},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=afb24a9e3098c6bbffcae02436bb0939}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi L.},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=9802d996e1c79979497e6b2566bc0358}{%
+           family={Abramowicz},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{fullhash}{b309e802d1ad9aa198d89f50c37bea01}
+      \strng{bibnamehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{authorbibnamehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{authornamehash}{a4ac0b7da088d421a760716f9c20aec2}
+      \strng{authorfullhash}{b309e802d1ad9aa198d89f50c37bea01}
+      \field{labelalpha}{Aab+17}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Measurement of the t t ¯ γ $$ t\overline{t}\gamma $$ production cross section in proton-proton collisions at s = 8 $$ \sqrt{s}=8 $$ TeV with the ATLAS detector}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/jhep11(2017)086
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP11(2017)086
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP11(2017)086
+      \endverb
+    \endentry
     \entry{singletop2}{article}{}
       \name{author}{602}{}{%
         {{hash=96796035bdde48f0f6780da927471d3e}{%

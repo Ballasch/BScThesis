@@ -1,21 +1,24 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[66] biber:340> INFO - === Mon Jul  5, 2021, 16:00:27
+[65] biber:340> INFO - === Wed Jul  7, 2021, 16:07:26
 [79] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[136] Biber.pm:952> INFO - Found 8 citekeys in bib section 0
-[147] Biber.pm:4340> INFO - Processing section 0
-[156] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[171] bibtex.pm:1689> INFO - LaTeX decoding ...
-[816] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[3166] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'PhysRevLett.121.221802' is not an integer - this will probably not sort properly.
-[3691] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop1' is not an integer - this will probably not sort properly.
-[4292] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop2' is not an integer - this will probably not sort properly.
-[4296] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
-[6216] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'anti_k_t' is not an integer - this will probably not sort properly.
-[6443] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6443] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6443] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
-[6443] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[6579] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[34065] bbl.pm:757> INFO - Output to thesis.bbl
-[34070] Biber.pm:128> INFO - WARNINGS: 5
+[135] Biber.pm:952> INFO - Found 11 citekeys in bib section 0
+[146] Biber.pm:4340> INFO - Processing section 0
+[155] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[172] bibtex.pm:1689> INFO - LaTeX decoding ...
+[798] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[2956] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'PhysRevLett.121.221802' is not an integer - this will probably not sort properly.
+[3440] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop1' is not an integer - this will probably not sort properly.
+[3999] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'singletop2' is not an integer - this will probably not sort properly.
+[4001] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
+[6001] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'anti_k_t' is not an integer - this will probably not sort properly.
+[6002] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'btag1' is not an integer - this will probably not sort properly.
+[6003] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'btag2' is not an integer - this will probably not sort properly.
+[6015] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'ttgamma' is not an integer - this will probably not sort properly.
+[6244] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6244] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6244] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[6244] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[6379] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[33768] bbl.pm:757> INFO - Output to thesis.bbl
+[33772] Biber.pm:128> INFO - WARNINGS: 8

@@ -5,7 +5,6 @@
 \label{chap:measurement}
 
 \begin{enumerate}
-    \item Explain why $t\bar{t}\gamma$ is close to $tq\gamma$. Mit crossection
     \item Reconstruction of leptons
     \item Reconstruction of photons
 \end{enumerate}
@@ -44,17 +43,29 @@ Monitored drift tubes measure pseudorapidities up to $|\eta| = 2.0$ and cathode 
 
 \subsection{Reconstruction of photons}
 \label{sec:reconphoton}
-?
+
+Photons do not leave tracks inside the inner detector. They are reconstructed from clusters in the electromagnetic calorimeter. Photon candidates need to pass the $Tight$ identification criteria with the transverse momentum being $p_T >20\,\si{\giga\electronvolt}$ and $|\eta| < 2.3$. 
+Photon candidtaes in the calorimeter transition region $1.37 < |\eta| < 1.52$ are exclused. 
+
 \subsection{Reconstruction of leptons}
 \label{sec:reconlepton}
-?
+
+Leptons like an electron also produce clusters inside the electromagnetic calorimeter and leave charged particle tracks in the inner detector. All leptons in the calorimeter region $1.37 < |\eta| < 1.52$ are excluded. Electron candidates have to pass the tight likelyhood identification (TightLH) conditions of $p_T > 27 \,\si{\giga\electronvolt}$ and $|\eta| < 2.47$. 
+To reconstruct muons, charged particle tracks in the inner detector are matched with muon spectrometer tracks. Muon candidates are required to pass the Medium identification with $p_T > 27 \,\si{\giga\electronvolt}$ and $|\eta| < 2.5$.
+
 \subsection{Jets}
 \label{sec:jets}
-Jets are showers of mostly mesons and fewer baryons in the hadronic calorimeter that result from the production of high energy quarks (color confinement) (\textbf{NOTE: }Jets sind tatsächlich ausschließlich Schauer aus quarks. EM-Schauer sind keine Jets). They deposit some of their energy in calorimeter cells which then are combined into clusters by the anti-$k_t$ algorithm \cite{anti_k_t} with a radius parameter of $R = 0.4$. 
+Jets are showers of mostly mesons and fewer baryons in the hadronic calorimeter that result from the production of high energy quarks (colour confinement). They deposit some of their energy in calorimeter cells which then are combined into clusters by the anti-$k_t$ algorithm \cite{anti_k_t} with a radius parameter of $R = 0.4$. 
 It is then required that the cluster has a transverse momentum of $p_T > 25 \,\si{\giga\electronvolt}$ and $\bigl|\eta\bigr| < 4.5$. If these conditions are met, the cluster is identified to be a jet.
 
 Detector noise can lead to the misidentification of a jet. The nature of these misidentified jets has been studied thoroughly and a so-called "jet cleaning procedure" is used to tag them. 
 Any event containing at least one "bad" jet is removed by the algorithm. 
+\subsection{b-tagging}
+\label{sec:btagging}
+
+The identification of jets produced by bottom quarks ($b$-taggigng) must be made with high accuracy to distinguish $bottom$ jets from $strange$ jets. Here, the $DL1r$ algorithm is implemented for $b$-tagging. It is essentially a neural network trained 
+on impact parameters and topological properties of decay vertices reconstructed within the jet. Only $b$-tagged jets passing $70\%$ working point and $p_T >20 \,\si{\giga\electronvolt}$ are viewed as $b$-jets in this analysis. 
+Detailed information on the $DL1r$-algorithm can be found in the references \cite{btag1} and \cite{btag2}.
 
 \subsection{Missing transverse momentum \texorpdfstring{$E_T^{\text{miss}}$}{}}
 
@@ -65,11 +76,12 @@ Any measured magnitude is therefore attributed to an unmeasured particle. The mi
 
 
 
-Various different processes besides $tq\gamma$ are also accepted by the criteria for event selection \ref{sec:eventselect}. For the scope of this thesis, contributions from these processes are considered background.  
-The process $t\bar{t}\gamma$ holds the most similar decay product as it's products can be identical to the products of $tq\gamma$. %EXPLAIN WHY WITH CROSSSECTION
-Following processes is the production of a $W$-boson with jets, a $Z$-boson with jets and $t\bar{t}$.
+Various processes besides $tq\gamma$ are also accepted by the criteria for event selection \ref{sec:eventselect}. However, for the scope of this thesis, contributions from these processes are considered background.  
+The process $t\bar{t}\gamma$ holds the most similar decay product. Because of the second top quark, This process does have an additional $b$-jet, but it may not get $b$-tagged correctly. If the second weak decay also does not get correctly reconstructed, then the $t\bar{t}\gamma$ process virtually looks identical to $tq\gamma$. 
+The $t\bar{t}\gamma$ process was found to have a cross-section of $\sigma(pp \rightarrow t\bar{t}\gamma) = 139 \pm 7 \,(stat.) \pm 17 \,(syst.) \,\si{\femto\barn}$ \cite{ttgamma}. 
+Next most similar processes are the production of a $W$-boson with jets, a $Z$-boson with jets and $t\bar{t}$.
 
-Table \ref{tab:background} lists these and the rest of the processes contributing to the background.
+Table \ref{tab:background} lists these and more of these processes contributing to the background.
 \begin{table}
     \centering
     \begin{tabular}{c c c}
@@ -81,9 +93,9 @@ Table \ref{tab:background} lists these and the rest of the processes contributin
         3 & $W\gamma + jets$\\[.1cm]
         4 & $Z\gamma + jets$\\[.1cm]
         5 & $t\bar{t}$\\[.1cm]
-        6 & $s\-chan$\\[.1cm]
+        6 & $s\text{-}chan$\\[.1cm]
         7 & $t W$\\[.1cm]
-        8 & $t\-chan$\\[.1cm]
+        8 & $t\text{-}chan$\\[.1cm]
         9 & $VV$\\[.1cm]
         10& $W+jets$\\[.1cm]
         11& $Z+jets$\\[.1cm]
