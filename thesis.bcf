@@ -2352,12 +2352,13 @@
     <bcf:citekey order="6">singletop1</bcf:citekey>
     <bcf:citekey order="7">singletop2</bcf:citekey>
     <bcf:citekey order="8">singletop3</bcf:citekey>
-    <bcf:citekey order="9">Collaboration_2008</bcf:citekey>
+    <bcf:citekey order="9">CMS</bcf:citekey>
     <bcf:citekey order="10">Collaboration_2008</bcf:citekey>
-    <bcf:citekey order="11">anti_k_t</bcf:citekey>
-    <bcf:citekey order="12">btag1</bcf:citekey>
-    <bcf:citekey order="13">btag2</bcf:citekey>
-    <bcf:citekey order="14">ttgamma</bcf:citekey>
+    <bcf:citekey order="11">Collaboration_2008</bcf:citekey>
+    <bcf:citekey order="12">anti_k_t</bcf:citekey>
+    <bcf:citekey order="13">btag1</bcf:citekey>
+    <bcf:citekey order="14">btag2</bcf:citekey>
+    <bcf:citekey order="15">ttgamma</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

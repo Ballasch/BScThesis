@@ -5792,6 +5792,37 @@
       \verb https://texample.net/tikz/examples/model-physics/
       \endverb
     \endentry
+    \entry{CMS}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=8ce87b4dc27b48d204336f9068ca8918}{%
+           family={Chatrchyan},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ab7e1f61569e4e3756a7f94d2498349}
+      \strng{fullhash}{4ab7e1f61569e4e3756a7f94d2498349}
+      \strng{bibnamehash}{4ab7e1f61569e4e3756a7f94d2498349}
+      \strng{authorbibnamehash}{4ab7e1f61569e4e3756a7f94d2498349}
+      \strng{authornamehash}{4ab7e1f61569e4e3756a7f94d2498349}
+      \strng{authorfullhash}{4ab7e1f61569e4e3756a7f94d2498349}
+      \field{labelalpha}{Cha+08}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JINST}
+      \field{title}{{The CMS Experiment at the CERN LHC}}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08004}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08004
+      \endverb
+    \endentry
     \entry{Collaboration_2008}{article}{}
       \name{author}{2048}{}{%
         {{hash=64b801af020d22f00f8c63d5f10dec61}{%
