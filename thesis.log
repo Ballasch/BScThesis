@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  9 JUL 2021 01:17
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  9 JUL 2021 20:23
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/mnt/c/Users/Ballasch/Documents/_uni/bachelorarbeit/BScThesis/thesis.tex
@@ -1444,7 +1444,7 @@ chapter 2.
 [2
 
 ]
-<Plots/model-physics.pdf, id=87, 257.8724pt x 218.54247pt>
+<Plots/model-physics.pdf, id=90, 257.8724pt x 218.54247pt>
 File: Plots/model-physics.pdf Graphic file (type pdf)
 <use Plots/model-physics.pdf>
 Package luatex.def Info: Plots/model-physics.pdf  used on input line 31.
@@ -1453,7 +1453,7 @@ Package luatex.def Info: Plots/model-physics.pdf  used on input line 31.
 
 LaTeX Warning: Reference `PhysRevLett.121.221802' on page 5 undefined on input line 45.
 
-<Plots/s4_feyn_nom.pdf, id=204, 222.37479pt x 126.68329pt>
+<Plots/s4_feyn_nom.pdf, id=207, 222.37479pt x 126.68329pt>
 File: Plots/s4_feyn_nom.pdf Graphic file (type pdf)
 <use Plots/s4_feyn_nom.pdf>
 Package luatex.def Info: Plots/s4_feyn_nom.pdf  used on input line 54.
@@ -1475,7 +1475,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 [7
 
 ]
-<Plots/atlasSCHEMA.PNG, id=248, 986.9372pt x 569.12625pt>
+<Plots/atlasSCHEMA.PNG, id=251, 986.9372pt x 569.12625pt>
 File: Plots/atlasSCHEMA.PNG Graphic file (type png)
 <use Plots/atlasSCHEMA.PNG>
 Package luatex.def Info: Plots/atlasSCHEMA.PNG  used on input line 31.
@@ -1577,7 +1577,7 @@ LaTeX Info: Redefining \sffamily on input line 43.
 LaTeX Info: Redefining \ttfamily on input line 43.
 )
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 5A91EA7FDD595E4911EBA9D3BFC96C5B;25285.
+(rerunfilecheck)             Checksum: 8E2020624E4BD75AE26BE14A34A045F0;25367.
 
 
 LaTeX Warning: There were undefined references.
@@ -1594,15 +1594,15 @@ Here is how much of LuaTeX's memory you used:
  100000,3417909 words of node,token memory allocated
  771 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 24 attribute, 83 glue_spec, 24 attribute_list, 3 write, 9 pdf_action nodes
-   avail lists: 2:942,3:388,4:255,5:390,6:117,7:7138,8:71,9:646,10:21,11:538
+   avail lists: 2:942,3:388,4:255,5:390,6:117,7:7138,8:71,9:646,10:21,11:523
  56492 multiletter control sequences out of 65536+600000
- 174 fonts using 50562531 bytes
+ 174 fonts using 50562155 bytes
  122i,22n,118p,10663b,3548s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (22 pages, 1022344 bytes).
+Output written on thesis.pdf (22 pages, 1022375 bytes).
 
-PDF statistics: 526 PDF objects out of 1000 (max. 8388607)
- 410 compressed objects within 5 object streams
+PDF statistics: 528 PDF objects out of 1000 (max. 8388607)
+ 412 compressed objects within 5 object streams
  89 named destinations out of 1000 (max. 131072)
  177 words of extra memory for PDF output out of 10000 (max. 100000000)
 

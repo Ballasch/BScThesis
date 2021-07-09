@@ -1,16 +1,18 @@
 \chapter{Introduction}
 
 
-The standard model of particle physics (SM) describes the nature of discovered elementary particles and three of the four fundamental interactions: strong, weak and electromagnetic interaction. 
-All observed microscopic phenomena can be attributed to one of these interactions. Only the gravitational interaction is not covered by the theory.  Therefore, the SM is widely regarded as the most successful theory and has been researched extensively. 
-However, there remain several problems of the SM. For instance, the theory cannot explain the origin of its fundamental parameters. Furthermore, the existence of dark matter is also not accounted for in the SM. The many problems of the SM motivate the search for physics beyond the Standard Model (BSM). 
-It is therefore essential to test and research the limits of this theory.\\
- Many tests of the Standard Model involve the top quark, the most massive elementary particle. One such test would be the search for the production of a single top in association with a photon in proton-proton-collisions ($pp \rightarrow tq\gamma$). 
-The process is sensitive to the top quark coupling to the $W$ boson and the photon. As these couplings are one of the critical parameters of the SM, a precise measurement of the cross-section for this process may give new insights into these parameters. \\
- A large number of background processes occupy the measurement region of $tq\gamma$. Major background processes are $t\bar{t}\gamma$, $W\gamma$ and $t\bar{t}$ with smaller contributions from other processes. A classifying neural network is implemented to differentiate 
-the signal process $tq\gamma$ from the background processes. This neural network is trained on simulated data and receives kinematic and topological event variables as the input. 
-When training a neural network, the influence of the input parameters on the output of the neural network is unknown. However, studying the significance and effects of different input parameters on the output would provide key insights for optimising of the neural network. 
-Additionally, this study may help narrow down or provide new conditions for the event selection criteria to optimise background noise suppression. Finally, the investigation of these input features could provide vital insights into the nature of the $tq\gamma$ process. 
-In this thesis, the correlations of input features and additional event parameters with the neural network output are calculated and analysed. Subsequently, two input features, the transverse momentum of the photon $p_T^\gamma$ and the energy of the forward jets with the photon energy, are chosen to be further studied. 
-These features are cut to specific energy regions. The effects of different cuts on the neural network are then thoroughly examined and discussed. 
+The Standard Model (SM) of particle physics  describes the nature of discovered elementary particles and three of the four fundamental interactions: the strong, weak and electromagnetic interaction. Only the gravitational interaction is not covered by the theory. The SM has been researched extensively and is widely regarded as the most successful theory. 
+However, the SM contains several conceptional problems and is unable to explain all phenomena. For instance, the existence of dark matter is not accounted for in the SM. The many problems of the SM motivate the search for physics beyond the Standard Model (BSM). 
+It is therefore essential to test and research the limits of this theory.
+
+Many tests of the Standard Model involve the top quark, the most massive elementary particle. One such test would be the search for the single production of a top quark in association with a photon in proton-proton collisions ($pp \rightarrow tq\gamma$). 
+The process is sensitive to the electroweak couplings of the top quark. As these couplings are critical parameters of the SM, a precise measurement of the cross-section for this process may give new insights into these parameters. 
+The $tq\gamma$ process has not yet been observed but the CMS Collaboration reported evidence for it in 2018 corresponding to 4.4 standard diviations \cite{PhysRevLett.121.221802}. Since the discovery of the process should be possible with the full Run-2 dataset, studies with regard to a differential measurement are carried out in this thesis.
+
+As $tq\gamma$ is a rare process of the SM, a significant amount of background occupies the measurement region and the signal to background ratio is inherently small. A classifying neural network (NN) is implemented to discriminate the signal process $tq\gamma$ from the background processes. 
+This NN is trained on simulated data and receives characteristic event variables of $tq\gamma$ as input. 
+Studying the significance and effects of different input parameters on the output may help narrow down or provide conditions for the event selection to optimise background noise suppression which would be useful for the differential analysis. Additionally, the investigation of these input features could provide vital insights into the nature of the $tq\gamma$ process. 
+In this thesis, the correlations of characteristic features of $tq\gamma$ with the NN output are analysed. 
+Subsequently, two input features, the transverse momentum of the photon $p_T^\gamma$ and the energy of the forward jets with the photon energy, are further studied. 
+These input features are divided into specific energy regions. The effects of different divisions on the NN output are then thoroughly examined and discussed. 
 

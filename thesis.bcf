@@ -2345,20 +2345,21 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" nocite="1">PhysRevLett.121.221802</bcf:citekey>
-    <bcf:citekey order="2">sm_table</bcf:citekey>
+    <bcf:citekey order="2">PhysRevLett.121.221802</bcf:citekey>
     <bcf:citekey order="3">sm_table</bcf:citekey>
-    <bcf:citekey order="4">pdg</bcf:citekey>
+    <bcf:citekey order="4">sm_table</bcf:citekey>
     <bcf:citekey order="5">pdg</bcf:citekey>
-    <bcf:citekey order="6">singletop1</bcf:citekey>
-    <bcf:citekey order="7">singletop2</bcf:citekey>
-    <bcf:citekey order="8">singletop3</bcf:citekey>
-    <bcf:citekey order="9">CMS</bcf:citekey>
-    <bcf:citekey order="10">Collaboration_2008</bcf:citekey>
+    <bcf:citekey order="6">pdg</bcf:citekey>
+    <bcf:citekey order="7">singletop1</bcf:citekey>
+    <bcf:citekey order="8">singletop2</bcf:citekey>
+    <bcf:citekey order="9">singletop3</bcf:citekey>
+    <bcf:citekey order="10">CMS</bcf:citekey>
     <bcf:citekey order="11">Collaboration_2008</bcf:citekey>
-    <bcf:citekey order="12">anti_k_t</bcf:citekey>
-    <bcf:citekey order="13">btag1</bcf:citekey>
-    <bcf:citekey order="14">btag2</bcf:citekey>
-    <bcf:citekey order="15">ttgamma</bcf:citekey>
+    <bcf:citekey order="12">Collaboration_2008</bcf:citekey>
+    <bcf:citekey order="13">anti_k_t</bcf:citekey>
+    <bcf:citekey order="14">btag1</bcf:citekey>
+    <bcf:citekey order="15">btag2</bcf:citekey>
+    <bcf:citekey order="16">ttgamma</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
