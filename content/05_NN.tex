@@ -1,31 +1,29 @@
 \chapter{The Neural Network used for signal-background classification}
 \section{Short introduction to neural networks}
-
-\begin{enumerate}
-    \item Input, output
-    \item hiddenlayer, weights
-    \item forward and backward propagation
-\end{enumerate}
+Neural networks are loosely on the human brain and are a means of doing machine learning, in which a computer learns to perform some task by analyzing training examples. 
+A NN is usually organized into layers of processing nodes. These processing nodes are densely interconnected between layers, and every connection weighted. 
+During the $forward$ $propagation$, where the NN is tested on given data, processes in the NN propagate from the input layer to the output layer. An individual node receives data from nodes in the layer beneath it and sends data to nodes in the layer above. 
+Nodes multiply received data by their weight value and add them together to a single value. Only if the node exceeds a specific value does it send its value to the next layer. During $backpropagation$, where the NN is being trained, weights and thresholds are continually adjusted until training data with the same label yield similar results.   
+In this thesis, a NN discriminates between the $tq\gamma$ signal and background events. 
+The NN is trained on Monte Carlo simulations (Section \ref{sec:mc}) and is tested on measurement data after that. 
 \section{The neural network architecture}
+\label{sec:arch}
 \begin{figure}
     \centering
     \begin{subfigure}{.5\textwidth}
       \centering
-      \includegraphics[width=.5\linewidth]{Plots/model_0fj.png}
+      \includegraphics[width=.4\linewidth]{Plots/model_0fj.png}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
       \centering
-      \includegraphics[width=.5\linewidth]{Plots/model_1fj.png}
+      \includegraphics[width=.4\linewidth]{Plots/model_1fj.png}
     \end{subfigure}
     \caption{Plots visualizing the NN architecture for the zero forward jet region (left) and the $\geq 1$ forward jets region (right).}
     \label{fig:models}
-    \end{figure}
-\begin{enumerate}
-    \item Newest architecture needed
-    \item Formulas for ReLu and output
-\end{enumerate}
-\section{Input features for the neural network}
+\end{figure}
 
+\section{Input features for the neural network}
+\label{sec:inputfeatures}
 \begin{table}
     \centering
     \begin{tabular}{c|c|c}
@@ -42,7 +40,6 @@
         8 &                             ph\_pt     &ph\_pt\\ \hline
         9 &                             top\_m     & top\_m\\ \hline
         10 &                       transMassWb      &transMassWb\\ \hline
-        \midrule
         11  &                            bph\_pt     & bph\_m\\ \hline
         12 &                          topph\_pt     &topph\_ctheta\\ \hline
         13 &                            ph\_eta     & ph\_phi\\ \hline
@@ -66,14 +63,6 @@
     \label{tab:features}
 \end{table}
 
-\begin{enumerate}
-    \item Where can I find the newest input feautures?
-\end{enumerate}
+
 \section{Performance and distribution of the NN output}
-\begin{enumerate}
-    \item Where can I find the newest input feautures?
-    \item Loss function, Accuracy, Weighted Auccracy, AUC, and Weighted AUC 
-    \begin{enumerate}
-        \item Which plots to show and which not to show?
-    \end{enumerate}
-\end{enumerate}
+
