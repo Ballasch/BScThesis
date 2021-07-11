@@ -1,67 +1,34 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \selectlanguage *{english}
-\defcounter {refsection}{0}\relax 
 \bgroup 
-\defcounter {refsection}{0}\relax 
 \selectlanguage *{english}
-\defcounter {refsection}{0}\relax 
 \egroup 
-\defcounter {refsection}{0}\relax 
 \selectlanguage *{english}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Single top quark production with a photon in the Standard Model}{2}{chapter.2}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}A brief overview of the Standard Model}{2}{section.2.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}The $tq\mitgamma $ process in the Standard Model}{5}{section.2.2}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Measurement of $tq\mitgamma $}{7}{chapter.3}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}The ATLAS Experiment}{7}{section.3.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Object Reconstruction at the ATLAS experiment}{8}{section.3.2}%
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Reconstruction of photons}{8}{subsection.3.2.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Reconstruction of leptons}{9}{subsection.3.2.2}%
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Jets}{9}{subsection.3.2.3}%
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}b-tagging}{9}{subsection.3.2.4}%
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Missing transverse momentum $E_T^{\text {miss}}$}{9}{subsection.3.2.5}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Background contributions from similar processes}{10}{section.3.3}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Monte Carlo samples and event selection}{11}{chapter.4}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Generation of Monte Carlo samples}{11}{section.4.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Event selection}{12}{section.4.2}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}The Neural Network used for signal-background classification}{13}{chapter.5}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Short introduction to neural networks}{13}{section.5.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}The neural network architecture}{13}{section.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Input features for the neural network}{13}{section.5.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Performance and distribution of the NN output}{13}{section.5.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Differnetial analysis of the NN output}{14}{chapter.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Correlations of input features with the NN output}{14}{section.6.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}NN output distribution dependence on photon $p_T$ and fjet+photon energy}{14}{section.6.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusions}{15}{chapter.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}TO DO}{16}{chapter.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{17}{chapter*.8}%
-\defcounter {refsection}{0}\relax 
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\contentsline {section}{\numberline {5.3}Input features for the neural network}{15}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Performance and distribution of the NN output}{17}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Differnetial analysis of the NN output}{18}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Correlations of input features with the NN output}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.2}NN output distribution dependence on photon $p_T$ and fjet+photon energy}{18}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusions}{19}{chapter.7}%
+\contentsline {chapter}{\numberline {8}TO DO}{20}{chapter.8}%
+\contentsline {chapter}{\nonumberline Bibliography}{21}{chapter*.10}%

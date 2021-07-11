@@ -28,7 +28,7 @@
       }
       \field{labelalpha}{17}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{extraalpha}{1}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -52,7 +52,7 @@
       }
       \field{labelalpha}{17}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{extraalpha}{2}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -132,7 +132,7 @@
       \strng{authorfullhash}{b309e802d1ad9aa198d89f50c37bea01}
       \field{labelalpha}{Aab+17}
       \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1029-8479}
@@ -3182,7 +3182,7 @@
       \strng{authorfullhash}{270b5e9d826dd11acf28bcc28957aa73}
       \field{labelalpha}{Aal+09}
       \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{9}
@@ -5738,7 +5738,7 @@
       \strng{authorfullhash}{ebad4bce2b5d5290d7ebcd7f20277fb0}
       \field{labelalpha}{Aba+09}
       \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{9}
@@ -5775,7 +5775,7 @@
       \strng{authorfullhash}{b7295d49f625e7cbd4dd272953c70b7b}
       \field{labelalpha}{Bur16}
       \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -5810,7 +5810,7 @@
       \strng{authorfullhash}{4ab7e1f61569e4e3756a7f94d2498349}
       \field{labelalpha}{Cha+08}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{JINST}
@@ -6513,7 +6513,7 @@
         {{hash=881bfbca1d7be815ee3c621f8d8b5d5d}{%
            family={Costa},
            familyi={C\bibinitperiod},
-           given={J\bibnamedelima Barreiro\bibnamedelima Guimarães},
+           given={J\bibnamedelima Barreiro\bibnamedelima Guimar{ã}es},
            giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim G\bibinitperiod},
            prefix={da},
            prefixi={d\bibinitperiod}}}%
@@ -6663,7 +6663,7 @@
            given={A},
            giveni={A\bibinitperiod}}}%
         {{hash=f98ae9c3d7184dc80967d364d4b25dbe}{%
-           family={Bednár},
+           family={Bedn{á}r},
            familyi={B\bibinitperiod},
            given={P},
            giveni={P\bibinitperiod}}}%
@@ -6863,7 +6863,7 @@
            given={J},
            giveni={J\bibinitperiod}}}%
         {{hash=590a0f9fc491ff519892a779ac7ac074}{%
-           family={Bernabéu},
+           family={Bernab{é}u},
            familyi={B\bibinitperiod},
            given={J},
            giveni={J\bibinitperiod}}}%
@@ -7585,7 +7585,7 @@
            given={T},
            giveni={T\bibinitperiod}}}%
         {{hash=2e2cb6e0dabc54c18ecac761811ee4ba}{%
-           family={Urbán},
+           family={Urb{á}n},
            familyi={U\bibinitperiod},
            given={S\bibnamedelima Cabrera},
            giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
@@ -7622,7 +7622,7 @@
         {{hash=542f8e111f2b67cea2e1e951aa26588e}{%
            family={Terol},
            familyi={T\bibinitperiod},
-           given={D\bibnamedelima Calderón},
+           given={D\bibnamedelima Calder{ó}n},
            giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
         {{hash=39ee0a5f2a8b14c8ba8b68c0ac010506}{%
            family={Callahan},
@@ -8190,7 +8190,7 @@
            given={B\bibnamedelima C},
            giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
         {{hash=11b590a6bb32e7c09772297e45c46b21}{%
-           family={Clément},
+           family={Cl{é}ment},
            familyi={C\bibinitperiod},
            given={C},
            giveni={C\bibinitperiod}}}%
@@ -8280,7 +8280,7 @@
            given={G},
            giveni={G\bibinitperiod}}}%
         {{hash=be80ac8bf72acd67ac90601115952b82}{%
-           family={Muiño},
+           family={Mui{ñ}o},
            familyi={M\bibinitperiod},
            given={P\bibnamedelima Conde},
            giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
@@ -8460,12 +8460,12 @@
            given={Z},
            giveni={Z\bibinitperiod}}}%
         {{hash=e44bc56ff6ca1547448ba18d2a9d420c}{%
-           family={D{'}Auria},
+           family={D'Auria},
            familyi={D\bibinitperiod},
            given={S},
            giveni={S\bibinitperiod}}}%
         {{hash=9a791fd6b5ac799cf0531e4a9875440b}{%
-           family={D{'}Onofrio},
+           family={D'Onofrio},
            familyi={D\bibinitperiod},
            given={M},
            giveni={M\bibinitperiod}}}%
@@ -8775,7 +8775,7 @@
            given={P},
            giveni={P\bibinitperiod}}}%
         {{hash=f55ff6fae41cd674a8bbac2ace57bb93}{%
-           family={Dell{'}Acqua},
+           family={Dell'Acqua},
            familyi={D\bibinitperiod},
            given={A},
            giveni={A\bibinitperiod}}}%
@@ -9291,7 +9291,7 @@
         {{hash=a1c148d7d53c9c02ce397bb9120a9b20}{%
            family={Cornell},
            familyi={C\bibinitperiod},
-           given={S\bibnamedelima Dı́ez},
+           given={S\bibnamedelima D{ı́}ez},
            giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
         {{hash=97f6861a00b6fa6a16f0bf6e49cef55f}{%
            family={Düren},
@@ -9784,7 +9784,7 @@
            given={V},
            giveni={V\bibinitperiod}}}%
         {{hash=d20271ef1cfa7f13347f93eefad3b8b3}{%
-           family={Filipčič},
+           family={Filip{č}i{č}},
            familyi={F\bibinitperiod},
            given={A},
            giveni={A\bibinitperiod}}}%
@@ -10089,7 +10089,7 @@
            given={A},
            giveni={A\bibinitperiod}}}%
         {{hash=55bc9280c333bf56bb3da5f023cd7e81}{%
-           family={Garciá},
+           family={Garci{á}},
            familyi={G\bibinitperiod},
            given={C},
            giveni={C\bibinitperiod}}}%
@@ -10101,7 +10101,7 @@
         {{hash=b43715c4d61f12bd8728bea6ba77ef28}{%
            family={Navarro},
            familyi={N\bibinitperiod},
-           given={J\bibnamedelima E\bibnamedelima Garcı̀a},
+           given={J\bibnamedelima E\bibnamedelima Garc{ı̀}a},
            giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=a037f8aed89ad58931d32961db116248}{%
            family={Garde},
@@ -10479,7 +10479,7 @@
            given={J},
            giveni={J\bibinitperiod}}}%
         {{hash=b00840b936a100e0c2031fa7f0a70ba7}{%
-           family={Gonçalo},
+           family={Gon{ç}alo},
            familyi={G\bibinitperiod},
            given={R},
            giveni={R\bibinitperiod}}}%
@@ -10501,14 +10501,14 @@
         {{hash=c94a33d519dccaf9f3ce3caed09e4b35}{%
            family={Hoz},
            familyi={H\bibinitperiod},
-           given={S\bibnamedelima González},
+           given={S\bibnamedelima Gonz{á}lez},
            giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
            prefix={de\bibnamedelima la},
            prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
         {{hash=7d63f3b39932eb62e22d386b1e3cc97d}{%
-           family={Millán},
+           family={Mill{á}n},
            familyi={M\bibinitperiod},
-           given={V\bibnamedelima González},
+           given={V\bibnamedelima Gonz{á}lez},
            giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=b9f89e81042f99bbf2685a492f41509b}{%
            family={Silva},
@@ -10521,7 +10521,7 @@
            given={B},
            giveni={B\bibinitperiod}}}%
         {{hash=76d2c1f05ce5d0e8f674f394acfe2c45}{%
-           family={González-Sevilla},
+           family={Gonz{á}lez-Sevilla},
            familyi={G\bibinithyphendelim S\bibinitperiod},
            given={S},
            giveni={S\bibinitperiod}}}%
@@ -10576,7 +10576,7 @@
            given={E},
            giveni={E\bibinitperiod}}}%
         {{hash=baa06da38e333315ebd53828f374de4e}{%
-           family={Gorišek},
+           family={Gori{š}ek},
            familyi={G\bibinitperiod},
            given={A},
            giveni={A\bibinitperiod}}}%
@@ -10616,7 +10616,7 @@
            given={M\bibnamedelima I},
            giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
         {{hash=b584e23745dea230df248448d2d182a3}{%
-           family={Gouanère},
+           family={Gouan{è}re},
            familyi={G\bibinitperiod},
            given={M},
            giveni={M\bibinitperiod}}}%
@@ -11356,7 +11356,7 @@
            given={A},
            giveni={A\bibinitperiod}}}%
         {{hash=fe270cfb4651d3662ee22f108decb923}{%
-           family={Higón-Rodriguez},
+           family={Hig{ó}n-Rodriguez},
            familyi={H\bibinithyphendelim R\bibinitperiod},
            given={E},
            giveni={E\bibinitperiod}}}%
@@ -11576,7 +11576,7 @@
            given={I},
            giveni={I\bibinitperiod}}}%
         {{hash=6211fce6ded8cb91cf8d89af674949fb}{%
-           family={Hryn{'}ova},
+           family={Hryn'ova},
            familyi={H\bibinitperiod},
            given={T},
            giveni={T\bibinitperiod}}}%
@@ -11926,7 +11926,7 @@
            given={P},
            giveni={P\bibinitperiod}}}%
         {{hash=93467abf07f059e4ea0f92272f79e058}{%
-           family={Jézéquel},
+           family={J{é}z{é}quel},
            familyi={J\bibinitperiod},
            given={S},
            giveni={S\bibinitperiod}}}%
@@ -12346,7 +12346,7 @@
            given={N},
            giveni={N\bibinitperiod}}}%
         {{hash=d22fb6bb3db051ae624b0d7de307dee4}{%
-           family={Kerševan},
+           family={Ker{š}evan},
            familyi={K\bibinitperiod},
            given={B\bibnamedelima P},
            giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
@@ -13471,7 +13471,7 @@
            given={A\bibnamedelima Leung\bibnamedelima Fook},
            giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
         {{hash=772d8672089df3effdf67158a50d9f70}{%
-           family={Levêque},
+           family={Lev{ê}que},
            familyi={L\bibinitperiod},
            given={J},
            giveni={J\bibinitperiod}}}%
@@ -13651,9 +13651,9 @@
            given={A},
            giveni={A\bibinitperiod}}}%
         {{hash=5c08566248d8290217e133c88f34e5ee}{%
-           family={Llácer},
+           family={Ll{á}cer},
            familyi={L\bibinitperiod},
-           given={G\bibnamedelima Llosá},
+           given={G\bibnamedelima Llos{á}},
            giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
         {{hash=4ae47a6bd129fe8d10d6193212b64bd0}{%
            family={Lloyd},
@@ -13911,7 +13911,7 @@
            given={E},
            giveni={E\bibinitperiod}}}%
         {{hash=da0cc2b1e911e3742fe2b1e2f96949ff}{%
-           family={López-Amengual},
+           family={L{ó}pez-Amengual},
            familyi={L\bibinithyphendelim A\bibinitperiod},
            given={J\bibnamedelima M},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
@@ -14116,7 +14116,7 @@
            given={L},
            giveni={L\bibinitperiod}}}%
         {{hash=9e1dec2c48bee8e447088cea8617f0b9}{%
-           family={Mandić},
+           family={Mandi{ć}},
            familyi={M\bibinitperiod},
            given={I},
            giveni={I\bibinitperiod}}}%
@@ -14280,7 +14280,7 @@
         {{hash=7cc1844e4c7bfc59438c22fe24731f06}{%
            family={Lacambra},
            familyi={L\bibinitperiod},
-           given={C\bibnamedelima Martı́nez},
+           given={C\bibnamedelima Mart{ı́}nez},
            giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{hash=eb547713af0475336a02976b189bca18}{%
            family={Outschoorn},
@@ -14663,7 +14663,7 @@
            given={A},
            giveni={A\bibinitperiod}}}%
         {{hash=9a660da9691b183121990b3f989992f8}{%
-           family={Mijović},
+           family={Mijovi{ć}},
            familyi={M\bibinitperiod},
            given={L},
            giveni={L\bibinitperiod}}}%
@@ -14688,7 +14688,7 @@
            given={B},
            giveni={B\bibinitperiod}}}%
         {{hash=9ffe7162eed91ba610f741e81e0f2d6e}{%
-           family={Mikuž},
+           family={Miku{ž}},
            familyi={M\bibinitperiod},
            given={M},
            giveni={M\bibinitperiod}}}%
@@ -15443,27 +15443,27 @@
            given={T},
            giveni={T\bibinitperiod}}}%
         {{hash=2bc0f91f833ee0c6b2b55c428e432c67}{%
-           family={O{'}Connor},
+           family={O'Connor},
            familyi={O\bibinitperiod},
            given={P},
            giveni={P\bibinitperiod}}}%
         {{hash=d9578e4bdcb19e6babe1027f5692e393}{%
-           family={O{'}Neale},
+           family={O'Neale},
            familyi={O\bibinitperiod},
            given={S\bibnamedelima W},
            giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
         {{hash=ed1035e20f4ccda83ccff4dce5ef6927}{%
-           family={O{'}Neil},
+           family={O'Neil},
            familyi={O\bibinitperiod},
            given={D\bibnamedelima C},
            giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
         {{hash=b4c0cc3fbf98612f220f31f7929a4a7a}{%
-           family={O{'}Neill},
+           family={O'Neill},
            familyi={O\bibinitperiod},
            given={M},
            giveni={M\bibinitperiod}}}%
         {{hash=7936565eb439d609ef89968bef4148b3}{%
-           family={O{'}Shea},
+           family={O'Shea},
            familyi={O\bibinitperiod},
            given={V},
            giveni={V\bibinitperiod}}}%
@@ -16099,7 +16099,7 @@
       \strng{authorfullhash}{8d682e80739270920bdf983d515c31fd}
       \field{labelalpha}{Col+08}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The ATLAS detector as installed in its experimental cavern at point 1 at CERN is described in this paper. A brief overview of the expected performance of the detector when the Large Hadron Collider begins operation is also presented.}
@@ -16151,7 +16151,7 @@
       \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \field{labelalpha}{CSS08}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1029-8479}
@@ -16189,7 +16189,7 @@
       \strng{authorfullhash}{2ea59163fcd2e1776a7e66dd9c3b0efa}
       \field{labelalpha}{Gro09}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -27743,7 +27743,7 @@
       \strng{authorfullhash}{75e067de5ee68f6aa7752e0ba0183901}
       \field{labelalpha}{Sir+18}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{22}
@@ -27782,7 +27782,7 @@
       \strng{authorfullhash}{3252689ea2c95188fe632e638cbb4321}
       \field{labelalpha}{Zyl+20}
       \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PTEP}
