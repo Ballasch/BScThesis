@@ -2345,7 +2345,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" nocite="1">PhysRevLett.121.221802</bcf:citekey>
-    <bcf:citekey order="2">PhysRevLett.121.221802</bcf:citekey>
+    <bcf:citekey order="2">CMS2</bcf:citekey>
     <bcf:citekey order="3">sm_table</bcf:citekey>
     <bcf:citekey order="4">sm_table</bcf:citekey>
     <bcf:citekey order="5">pdg</bcf:citekey>
