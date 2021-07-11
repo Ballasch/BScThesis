@@ -2,12 +2,28 @@
 \section{Short introduction to neural networks}
 Neural networks are loosely on the human brain and are a means of doing machine learning, in which a computer learns to perform some task by analyzing training examples. 
 A NN is usually organized into layers of processing nodes. These processing nodes are densely interconnected between layers, and every connection weighted. 
-During the $forward$ $propagation$, where the NN is tested on given data, processes in the NN propagate from the input layer to the output layer. An individual node receives data from nodes in the layer beneath it and sends data to nodes in the layer above. 
-Nodes multiply received data by their weight value and add them together to a single value. Only if the node exceeds a specific value does it send its value to the next layer. During $backpropagation$, where the NN is being trained, weights and thresholds are continually adjusted until training data with the same label yield similar results.   
+During the $forward$ $propagation$, where the NN is tested on provided data, computations in the NN propagate from the input layer to the output layer. An individual node receives data from nodes in the layer beneath it and sends data to nodes in the layer above. 
+Nodes multiply received data by their weight value and add them together to a single value. Only if the node exceeds a specific threshhold does it send its value to the next layer. During $backpropagation$, where the NN is being trained, weights and thresholds are continually adjusted until training data with the same label yield similar results.   
 In this thesis, a NN discriminates between the $tq\gamma$ signal and background events. 
-The NN is trained on Monte Carlo simulations (Section \ref{sec:mc}) and is tested on measurement data after that. 
+The NN is trained on Monte Carlo simulations (Section \ref{sec:mc}) and is tested on measurement data after that. Characteristic variables of events, which are discussed in detail in section \ref{sec:inputfeatures}, are used as the input. 
 \section{The neural network architecture}
 \label{sec:arch}
+The NN are built using the \texttt{Keras} library running on \texttt{TensorFlow} \cite{Keras} \cite{tensorflow}.
+Two different neural networks are trained to separate the signal from the background. One is trained on the zero-forward jet signal region ($0\text{-}fj$), and the other is trained on the At least one forward jet region ($\geq 1\text{-}fj$). 
+This is done to optimize the sensitivity of the analysis as the signal to background ratio ($S/B$) is greater for the $\geq 1\text{-}fj$ region than the $0\text{-}fj$ region. \\
+Both models consist of one input layer, three densely connected node layers (Dense layer) and one output layer. The input layers have nodes for each input feature. The NN for $0\text{-}fj$ events has $16$ input features while the NN for $\geq 1\text{-}fj$ events has $27$ due to additional variables of the forward jets. 
+The activation function for the Dense layers is the Leaky Rectified Linear Unit (ReLU) function $f(x)$:
+\begin{align*}
+    f(x) =\begin{cases}
+            x, & \text{for } x \geq 0\\
+            0.5x, & \text{for } x < 0.
+        \end{cases}
+\end{align*}
+For the output layer, the activation function is the sigmoid function $\sigma(x)$:
+\begin{align*}
+    \sigma(x) = \frac{1}{1+ e^{-x}}. 
+\end{align*}
+Finally, the \texttt{Adam} algorithm is used as the optimizer for updating the weights in the NN \cite{Adam}. Figure \ref{fig:models} displays the described architecture of the NN models. 
 \begin{figure}
     \centering
     \begin{subfigure}{.5\textwidth}
@@ -18,7 +34,7 @@ The NN is trained on Monte Carlo simulations (Section \ref{sec:mc}) and is teste
       \centering
       \includegraphics[width=.4\linewidth]{Plots/model_1fj.png}
     \end{subfigure}
-    \caption{Plots visualizing the NN architecture for the zero forward jet region (left) and the $\geq 1$ forward jets region (right).}
+    \caption{Visualization of the NN architecture for the zero forward jet region (left) and the $\geq 1$ forward jets region (right).}
     \label{fig:models}
 \end{figure}
 
@@ -66,3 +82,22 @@ The NN is trained on Monte Carlo simulations (Section \ref{sec:mc}) and is teste
 
 \section{Performance and distribution of the NN output}
 
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{Plots/NN_out_mix_GANZ.pdf}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{Plots/Platzhalter.png}
+    \end{subfigure}
+    \caption{The NN output event distribution (left) and the composition of different bins of the NN output (right).}
+    \label{fig:NNdistro}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Plots/ROC-Curve-fullt.pdf}
+    \caption{ROC curve of the neural network with the point of maximumized signal efficiency and backgrund rejection.}
+    \label{fig:rocfull}
+\end{figure}

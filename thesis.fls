@@ -539,6 +539,15 @@ INPUT ./Plots/model_0fj.png
 INPUT ./Plots/model_1fj.png
 INPUT ./Plots/model_1fj.png
 INPUT ./Plots/model_1fj.png
+INPUT ./Plots/NN_out_mix_GANZ.pdf
+INPUT ./Plots/NN_out_mix_GANZ.pdf
+INPUT ./Plots/NN_out_mix_GANZ.pdf
+INPUT ./Plots/Platzhalter.png
+INPUT ./Plots/Platzhalter.png
+INPUT ./Plots/Platzhalter.png
+INPUT ./Plots/ROC-Curve-fullt.pdf
+INPUT ./Plots/ROC-Curve-fullt.pdf
+INPUT ./Plots/ROC-Curve-fullt.pdf
 INPUT ./content/06_analysis.tex
 INPUT ./content/06_analysis.tex
 INPUT ./content/07_figs_tabs.tex
