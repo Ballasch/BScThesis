@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber thesis"] 1626015013 "thesis.bcf" "thesis.bbl" "thesis" 1626015065
+["biber thesis"] 1626015309 "thesis.bcf" "thesis.bbl" "thesis" 1626015361
   "references.bib" 1626009865 97484 f5dc82b1e54569424e11a989dbfa01f0 ""
-  "thesis.bcf" 1626015065 107840 6a6e84e618613cc9890a30e3e8ea3c61 "pdflatex"
+  "thesis.bcf" 1626015360 107840 6a6e84e618613cc9890a30e3e8ea3c61 "pdflatex"
   (generated)
-  "thesis.blg"
   "thesis.bbl"
-["pdflatex"] 1626015059 "/mnt/c/Users/Ballasch/Documents/_uni/bachelorarbeit/BScThesis/thesis.tex" "thesis.pdf" "thesis" 1626015065
+  "thesis.blg"
+["pdflatex"] 1626015355 "/mnt/c/Users/Ballasch/Documents/_uni/bachelorarbeit/BScThesis/thesis.tex" "thesis.pdf" "thesis" 1626015361
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -241,7 +241,7 @@
   "/home/cihad/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1621381772 1253722 b3f9c8c7b70dbc7f9f2fbe43916a5ff5 ""
   "/home/cihad/.local/texlive/2021/texmf-var/tex/generic/config/language.dat.lua" 1621003647 17745 50fa59ec4e16fbd143f0f890b38f26de ""
   "/home/cihad/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1621003692 3332760 b8b4c9365b698bd0c38913d5be6aad28 ""
-  "/mnt/c/Users/Ballasch/Documents/_uni/bachelorarbeit/BScThesis/thesis.tex" 1626014951 6183 8083e48a72f74d209361ec982460973e ""
+  "/mnt/c/Users/Ballasch/Documents/_uni/bachelorarbeit/BScThesis/thesis.tex" 1626015304 6183 8083e48a72f74d209361ec982460973e ""
   "Plots/NN_out_mix_GANZ.pdf" 1626003962 19117 2c25aa716c6d396ce2a047a82975656b ""
   "Plots/Platzhalter.png" 1626003470 11085 c002ea6032d45d4fa6567fd496c13051 ""
   "Plots/ROC-Curve-fullt.pdf" 1626005375 15338 392864647b4e36202f6e13c8839fffc1 ""
@@ -250,7 +250,7 @@
   "Plots/model_0fj.png" 1625998042 38298 4db3a3d90d595f42d466a29a1748a442 ""
   "Plots/model_1fj.png" 1625998042 37669 e430ea87f22f3ce35ae8ef0e02aa01fd ""
   "Plots/s4_feyn_nom.pdf" 1625146722 42540 5523ab202beaca5b93ea3788886ed088 ""
-  "bibstyle.sty" 1626014774 6370 6264781c635fc1309f423b3b4fa0e811 ""
+  "bibstyle.sty" 1626015311 6364 41e7ab80c61ff3c634ede0ba2dc8e129 ""
   "content/00_abstract.tex" 1625737356 224 66dcefce4af67ca491a42e8c5eae583b ""
   "content/01_introduction.tex" 1625961699 2868 4eb47db5fa60a4b042cc7b7d8e6292ad ""
   "content/02_sm.tex" 1625737384 7858 110edd67df9d95448503e5794b99e2b7 ""
@@ -264,16 +264,16 @@
   "content/hints.tex" 1624708748 0 d41d8cd98f00b204e9800998ecf8427e ""
   "content/todo.tex" 1626001571 176 4fd60cf1e42c3466b8f3268b4ed2b2ab ""
   "logos/tu-logo.pdf" 1624709992 14200 395b646e2b706d1f3c7ca6b6858fdf58 ""
-  "thesis.aux" 1626015065 27928 a40091cd84152b954edd3ddce73c437f "pdflatex"
-  "thesis.bbl" 1626015048 1071654 816b6af1734382d4d7d840aab85f4c91 "biber thesis"
-  "thesis.run.xml" 1626015065 2386 5899d156cb23731ed863388b6942cfa4 "pdflatex"
-  "thesis.tex" 1626014951 6183 8083e48a72f74d209361ec982460973e ""
-  "thesis.toc" 1626015065 3970 95cdc2a99748f2c505bd66c09d7375df "pdflatex"
+  "thesis.aux" 1626015360 27928 a40091cd84152b954edd3ddce73c437f "pdflatex"
+  "thesis.bbl" 1626015344 1071654 816b6af1734382d4d7d840aab85f4c91 "biber thesis"
+  "thesis.run.xml" 1626015360 2386 5899d156cb23731ed863388b6942cfa4 "pdflatex"
+  "thesis.tex" 1626015304 6183 8083e48a72f74d209361ec982460973e ""
+  "thesis.toc" 1626015360 3970 95cdc2a99748f2c505bd66c09d7375df "pdflatex"
   "tudothesis.cls" 1624708748 3849 8f8c72f355ca865fa37c6453a29603c7 ""
   (generated)
-  "thesis.log"
   "thesis.bcf"
   "thesis.run.xml"
   "thesis.aux"
+  "thesis.log"
   "thesis.pdf"
   "thesis.toc"
