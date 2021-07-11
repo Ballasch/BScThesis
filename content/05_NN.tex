@@ -40,6 +40,7 @@ Finally, the \texttt{Adam} algorithm is used as the optimizer for updating the w
 
 \section{Input features for the neural network}
 \label{sec:inputfeatures}
+The input features used for the two NN models are listed in table \ref{tab:features} (Weiß nicht was ich hier schreiben sollte?).
 \begin{table}
     \centering
     \begin{tabular}{c|c|c}
@@ -75,12 +76,26 @@ Finally, the \texttt{Adam} algorithm is used as the optimizer for updating the w
         27 &&                                           fjph\_m \\ \hline
         \bottomrule 
     \end{tabular}
-    \caption{Input variables of the NN trained on events with no forward jets and the NN trained on events with at least one forward jet.}
+    \caption{\textbf{Variablen müssen in der mathematischen Darstellung angegeben werden!} Input variables of the NN trained on events with no forward jets and the NN trained on events with at least one forward jet.}
     \label{tab:features}
 \end{table}
 
 
 \section{Performance and distribution of the NN output}
+A distribution for ten different bins of the NN output for $\geq 1\text{-}fj$ has been calculated and displayed in figure \ref{fig:NNdistro}. In this plot, the contributions from different samples are labeled and stacked on top of each other. The data samples are viewed seperately and also added to the plot.
+To better visualize the composition of different bins, the right plot in figure \ref{fig:NNdistro} shows the percentage of each sample in each bin. These plots confirm that events at higher values of the NN output increase the $S/B$ ratio.  \\ 
+To determine the performance of the NN output, the signal efficiency is plotted alongside the background suppression (so-called "ROC-Curve") in figure \ref{fig:rocfull}. 
+The signal efficiency (SE) is calculated as follows: 
+\begin{align*}
+    SE = \frac{\text{Amount of true signal events }}{\text{Total of signal events}} & \text{Wie schreibe ich das besser?}
+\end{align*}
+and the background suppression (BS) is calculated with the formula
+\begin{align*}
+    BS = 1 - \frac{\text{Amount of true background events }}{\text{Total of background events}} & \text{Wie schreibe ich das besser?}.
+\end{align*}
+
+
+
 
 \begin{figure}
     \centering
@@ -98,6 +113,7 @@ Finally, the \texttt{Adam} algorithm is used as the optimizer for updating the w
 \begin{figure}
     \centering
     \includegraphics[width=0.5\textwidth]{Plots/ROC-Curve-fullt.pdf}
-    \caption{ROC curve of the neural network with the point of maximumized signal efficiency and backgrund rejection.}
+    \caption{ROC-Curve of the neural network with the point of maximumized signal efficiency and backgrund rejection.}
     \label{fig:rocfull}
 \end{figure}
+
