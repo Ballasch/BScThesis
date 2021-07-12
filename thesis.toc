@@ -56,12 +56,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Correlations of input features with the NN output}{18}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}NN output distribution dependence on photon $p_T$ and fjet+photon energy}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.2}NN output distribution dependence on photon $p_T^\mitgamma $ and fjet+photon energy}{18}{section.6.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusion}{19}{chapter.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}TO DO}{20}{chapter.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{21}{chapter*.12}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
