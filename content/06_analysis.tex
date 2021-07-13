@@ -28,17 +28,17 @@ Here, $y$ stands for the second data set. Finally, the weighted correlation is t
 Thus, the correlation between the values for one input feature $X_\text{input}$ and the NN output values $Y_\text{output}$ with the weights $W$ would be $corr(X_\text{input},Y_\text{output};W)$.
 
 Calculations for the $0\, fj$ region and the $\geq 1\, fj$ region are done separately.  
-Every generated event is saved with 110 different features, including the input features, the NN output value and the NN weights. 
-At the start, the calculation for variable correlations with the NN output is performed for all events of the same sample.  
-Then, all correlations of the background samples are combined. This is done by calculating a weighted mean over all samples. Here, the sum of weights in a sample is used as the new weight for the mean.
+Every generated event is saved with 110 different event features, including the input features, the NN output value and the NN weights. As most event features are not considered in this thesis, the explanation for features that are not part of the input is not provided. \\
+At the start, the calculation for variable correlations with the NN output is performed for all events of the same process.  
+Then, all correlations of the background samples are merged. This is done by calculating a weighted mean over all samples. Here, the sum of weights in a sample is used as the new weight for the mean.
 Finally, the correlation of measured data is also determined. The final result is a correlation table for the whole background, the $tq\gamma$ process and the measured data in each forward jet region. 
-The result of the calculations is visualised and discussed in Section \ref{sec:corrvis}.
+The result of the calculations is visualised and discussed in Section \ref{sec:corrvis}. 
 
 
 \subsection{Results of the correlation calculations}
 \label{sec:corrvis}
 The results of the calculations are listed in Table \ref{tab:corrAll} of the Appendix. This table also contains some correlations of features that are not part of the input of the NN in the given region.  
-Figure \ref{fig:corr0fj} and \autoref{fig:corr1fj} display correlations of the input features in order for both forward jet regions respectively. 
+Figure \ref{fig:corr0fj} and \autoref{fig:corr1fj} display correlations of the input features in order for both forward jet regions respectively. The correlations for all 110 event features are depicted in the Appendix in Figure \ref{fig:corrAll}.
 
 The Figures show that forward jet ($fj$) feautures, specifically the $fj+photon$ energy ($fjph\_e$) and the $fj$ flag ($fj\_flag$), have the strongest correlation. This confirms expectations as $S/B$ is larger in the $\geq 1\, fj$ region. 
 Furthermore, it is clear that some input feautures have no significant correlation at all. However, it is important to keep these feautures as part of the NN input as correlations among input variables significantly effect the NN output too. 
