@@ -29018,6 +29018,7 @@
       \strng{authorbibnamehash}{2599645aa1bba2943bd06a9dc52f06e5}
       \strng{authornamehash}{2599645aa1bba2943bd06a9dc52f06e5}
       \strng{authorfullhash}{75e067de5ee68f6aa7752e0ba0183901}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -29038,6 +29039,95 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.121.221802
+      \endverb
+    \endentry
+    \entry{evidenceCMS}{article}{}
+      \name{author}{11}{}{%
+        {{hash=eb39bbc4713b0118366317a14ed623c7}{%
+           family={Sirunyan},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b9905fc4c424322f81b3e50445bddef7}{%
+           family={Tumasyan},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3e2872e7b083881b9e21df137964a7b5}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=23aa121469222482e82c2df86cad7557}{%
+           family={Ambrogi},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88cf81075bfdb3ca4be24f1d25576107}{%
+           family={Asilar},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f8cc2bcab995df89e658cd6fa56681e6}{%
+           family={Bergauer},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c52179d44fdeea7512aa1d0bdc7e317b}{%
+           family={Brandstetter},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1b3dba77744ec6c69674a501860e7093}{%
+           family={Dragicevic},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bea68b16ab97d19bc21bb8034c441f34}{%
+           family={Erö},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c3a77fa92795d6d26b1a557c3050b4b2}{%
+           family={Escalante\bibnamedelimb Del\bibnamedelima Valle},
+           familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{2599645aa1bba2943bd06a9dc52f06e5}
+      \strng{fullhash}{fc2cefe30c1689f5703c3cc511415996}
+      \strng{bibnamehash}{2599645aa1bba2943bd06a9dc52f06e5}
+      \strng{authorbibnamehash}{2599645aa1bba2943bd06a9dc52f06e5}
+      \strng{authornamehash}{2599645aa1bba2943bd06a9dc52f06e5}
+      \strng{authorfullhash}{fc2cefe30c1689f5703c3cc511415996}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1079-7114}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{Evidence for the Associated Production of a Single Top Quark and a Photon in Proton-Proton Collisions at s=13  TeV}
+      \field{volume}{121}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1103/physrevlett.121.221802
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.121.221802
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.121.221802
       \endverb
     \endentry
     \entry{pdg}{article}{}
