@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  13 JUL 2021 16:25
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  13 JUL 2021 23:16
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/mnt/c/Users/Ballasch/Documents/_uni/bachelorarbeit/BScThesis/thesis.tex
@@ -1424,9 +1424,9 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-LaTeX Info: Redefining \rmfamily on input line 10.
-LaTeX Info: Redefining \sffamily on input line 10.
-LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 13.
+LaTeX Info: Redefining \sffamily on input line 13.
+LaTeX Info: Redefining \ttfamily on input line 13.
 ) [3]
 Package tocbasic Info: character protrusion at toc deactivated on input line 158.
  (./thesis.toc
@@ -1484,23 +1484,22 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 17.27815pt on input line 4.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 11.99872pt on input line 4.
-[6
-
-]
-<Plots/atlasSCHEMA.PNG, id=248, 986.9372pt x 569.12625pt>
+<Plots/atlasSCHEMA.PNG, id=244, 986.9372pt x 569.12625pt>
 File: Plots/atlasSCHEMA.PNG Graphic file (type png)
 <use Plots/atlasSCHEMA.PNG>
-Package luatex.def Info: Plots/atlasSCHEMA.PNG  used on input line 31.
+Package luatex.def Info: Plots/atlasSCHEMA.PNG  used on input line 11.
 (luatex.def)             Requested size: 354.91733pt x 204.66818pt.
- [7<./Plots/atlasSCHEMA.PNG>]
+[6
+
+<./Plots/atlasSCHEMA.PNG>] [7]
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 66.
+(Font)              scaled to size 8.00085pt on input line 67.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 66.
+(Font)              scaled to size 6.00064pt on input line 67.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 66.
+(Font)              scaled to size 7.99915pt on input line 67.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 66.
+(Font)              scaled to size 5.99936pt on input line 67.
  [8]) (./content/04_mc.tex [9] [10]
 chapter 4.
 [11
@@ -1510,53 +1509,60 @@ chapter 5.
 [13
 
 ]
-<Plots/model_0fj.png, id=327, 306.14375pt x 851.18pt>
+<Plots/model_0fj.png, id=349, 306.14375pt x 851.18pt>
 File: Plots/model_0fj.png Graphic file (type png)
 <use Plots/model_0fj.png>
-Package luatex.def Info: Plots/model_0fj.png  used on input line 31.
+Package luatex.def Info: Plots/model_0fj.png  used on input line 33.
 (luatex.def)             Requested size: 78.86984pt x 219.27545pt.
-<Plots/model_1fj.png, id=328, 306.14375pt x 851.18pt>
+<Plots/model_1fj.png, id=350, 306.14375pt x 851.18pt>
 File: Plots/model_1fj.png Graphic file (type png)
 <use Plots/model_1fj.png>
-Package luatex.def Info: Plots/model_1fj.png  used on input line 35.
+Package luatex.def Info: Plots/model_1fj.png  used on input line 37.
 (luatex.def)             Requested size: 78.86984pt x 219.27545pt.
-
-Overfull \hbox (18.35825pt too wide) in paragraph at lines 46--79
- [][] 
- []
-
-[14<./Plots/model_0fj.png><./Plots/model_1fj.png>] [15]
-<Plots/NN_out_mix_GANZ.pdf, id=345, 569.12625pt x 417.56pt>
+ [14<./Plots/model_0fj.png><./Plots/model_1fj.png>] [15] [16]
+<Plots/NN_out_mix_GANZ.pdf, id=384, 569.12625pt x 417.56pt>
 File: Plots/NN_out_mix_GANZ.pdf Graphic file (type pdf)
 <use Plots/NN_out_mix_GANZ.pdf>
-Package luatex.def Info: Plots/NN_out_mix_GANZ.pdf  used on input line 102.
+Package luatex.def Info: Plots/NN_out_mix_GANZ.pdf  used on input line 139.
 (luatex.def)             Requested size: 315.48541pt x 231.47456pt.
-<Plots/ROC-Curve-fullt.pdf, id=346, 462.528pt x 346.896pt>
+<Plots/ROC-Curve-fullt.pdf, id=385, 462.528pt x 346.896pt>
 File: Plots/ROC-Curve-fullt.pdf Graphic file (type pdf)
 <use Plots/ROC-Curve-fullt.pdf>
-Package luatex.def Info: Plots/ROC-Curve-fullt.pdf  used on input line 108.
+Package luatex.def Info: Plots/ROC-Curve-fullt.pdf  used on input line 145.
 (luatex.def)             Requested size: 197.17763pt x 147.8867pt.
-) (./content/06_analysis.tex [16<./Plots/NN_out_mix_GANZ.pdf>] [17<./Plots/ROC-Curve-fullt.pdf>]
+) (./content/06_analysis.tex [17<./Plots/NN_out_mix_GANZ.pdf>] [18<./Plots/ROC-Curve-fullt.pdf>]
 chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
 
-[18
+[19
 
 ]
-<Plots/corr0fjvariables.pdf, id=459, 559.80392pt x 346.47128pt>
+<Plots/corr0fjvariables.pdf, id=499, 559.80392pt x 346.47128pt>
 File: Plots/corr0fjvariables.pdf Graphic file (type pdf)
 <use Plots/corr0fjvariables.pdf>
 Package luatex.def Info: Plots/corr0fjvariables.pdf  used on input line 51.
 (luatex.def)             Requested size: 276.04749pt x 170.85619pt.
-<Plots/corr1fjvariables1.pdf, id=460, 556.479pt x 620.16882pt>
+<Plots/corr1fjvariables1.pdf, id=500, 556.479pt x 620.16882pt>
 File: Plots/corr1fjvariables1.pdf Graphic file (type pdf)
 <use Plots/corr1fjvariables1.pdf>
 Package luatex.def Info: Plots/corr1fjvariables1.pdf  used on input line 57.
 (luatex.def)             Requested size: 276.04749pt x 307.64218pt.
- [19] [20<./Plots/corr0fjvariables.pdf><./Plots/corr1fjvariables1.pdf>]
+ [20] [21<./Plots/corr0fjvariables.pdf><./Plots/corr1fjvariables1.pdf>]
+<Plots/ph_pt.pdf, id=682, 569.12625pt x 417.56pt>
+File: Plots/ph_pt.pdf Graphic file (type pdf)
+<use Plots/ph_pt.pdf>
+Package luatex.def Info: Plots/ph_pt.pdf  used on input line 78.
+(luatex.def)             Requested size: 236.61555pt x 173.60272pt.
+ [22<./Plots/ph_pt.pdf>]
+<Plots/fjph_e.pdf, id=745, 569.12625pt x 417.56pt>
+File: Plots/fjph_e.pdf Graphic file (type pdf)
+<use Plots/fjph_e.pdf>
+Package luatex.def Info: Plots/fjph_e.pdf  used on input line 102.
+(luatex.def)             Requested size: 276.04749pt x 202.54182pt.
+) (./content/07_conclusion.tex
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 27.46463pt needed,
@@ -1565,87 +1571,83 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `headheight=27.46463pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 85.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1.
 
 
 Overfull \vbox (10.46463pt too high) has occurred while \output is active []
 
- [21]
-<Plots/composition9FULL.pdf, id=664, 462.528pt x 346.896pt>
-File: Plots/composition9FULL.pdf Graphic file (type pdf)
-<use Plots/composition9FULL.pdf>
-Package luatex.def Info: Plots/composition9FULL.pdf  used on input line 95.
-(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
-<Plots/compositionTenFULL.pdf, id=665, 462.528pt x 346.896pt>
-File: Plots/compositionTenFULL.pdf Graphic file (type pdf)
-<use Plots/compositionTenFULL.pdf>
-Package luatex.def Info: Plots/compositionTenFULL.pdf  used on input line 99.
-(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
-<Plots/ph_pt.pdf, id=666, 569.12625pt x 417.56pt>
-File: Plots/ph_pt.pdf Graphic file (type pdf)
-<use Plots/ph_pt.pdf>
-Package luatex.def Info: Plots/ph_pt.pdf  used on input line 108.
-(luatex.def)             Requested size: 236.61555pt x 173.60272pt.
-<Plots/NN_out_mixphA40.pdf, id=667, 569.12625pt x 417.56pt>
-File: Plots/NN_out_mixphA40.pdf Graphic file (type pdf)
-<use Plots/NN_out_mixphA40.pdf>
-Package luatex.def Info: Plots/NN_out_mixphA40.pdf  used on input line 115.
-(luatex.def)             Requested size: 276.04749pt x 202.54182pt.
-<Plots/composition9phA40.pdf, id=668, 462.528pt x 346.896pt>
-File: Plots/composition9phA40.pdf Graphic file (type pdf)
-<use Plots/composition9phA40.pdf>
-Package luatex.def Info: Plots/composition9phA40.pdf  used on input line 123.
-(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
-<Plots/compositionTenphA40.pdf, id=669, 462.528pt x 346.896pt>
-File: Plots/compositionTenphA40.pdf Graphic file (type pdf)
-<use Plots/compositionTenphA40.pdf>
-Package luatex.def Info: Plots/compositionTenphA40.pdf  used on input line 127.
-(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
-<Plots/fjph_e.pdf, id=670, 569.12625pt x 417.56pt>
-File: Plots/fjph_e.pdf Graphic file (type pdf)
-<use Plots/fjph_e.pdf>
-Package luatex.def Info: Plots/fjph_e.pdf  used on input line 135.
-(luatex.def)             Requested size: 276.04749pt x 202.54182pt.
-<Plots/NN_out_mixfjphA900.pdf, id=671, 569.12625pt x 417.56pt>
-File: Plots/NN_out_mixfjphA900.pdf Graphic file (type pdf)
-<use Plots/NN_out_mixfjphA900.pdf>
-Package luatex.def Info: Plots/NN_out_mixfjphA900.pdf  used on input line 143.
-(luatex.def)             Requested size: 276.04749pt x 202.54182pt.
-<Plots/composition9fjA900.pdf, id=672, 462.528pt x 346.896pt>
-File: Plots/composition9fjA900.pdf Graphic file (type pdf)
-<use Plots/composition9fjA900.pdf>
-Package luatex.def Info: Plots/composition9fjA900.pdf  used on input line 151.
-(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
-File: Plots/compositionTenphA40.pdf Graphic file (type pdf)
-<use Plots/compositionTenphA40.pdf>
-Package luatex.def Info: Plots/compositionTenphA40.pdf  used on input line 155.
-(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
-) (./content/07_conclusion.tex [22] [23<./Plots/composition9FULL.pdf><./Plots/compositionTenFULL.pdf>] [24<./Plots/ph_pt.pdf><./Plots/NN_out_mixphA40.pdf>] [25<./Plots/composition9phA40.pdf><./Plots/compositionTenphA40.pdf>] [26<./Plots/fjph_e.pdf><./Plots/NN_out_mixfjphA900.pdf>] [27<./Plots/composition9fjA900.pdf>]
+ [23] [24<./Plots/fjph_e.pdf>]
 chapter 7.
-) (./content/08_figs_tabs.tex [28
+) (./content/08_figs_tabs.tex [25
 
 ]
 chapter 8.
-<Plots/corrAll.pdf, id=1148, 699.58865pt x 1683.28561pt>
+File: Plots/NN_out_mix_GANZ.pdf Graphic file (type pdf)
+<use Plots/NN_out_mix_GANZ.pdf>
+Package luatex.def Info: Plots/NN_out_mix_GANZ.pdf  used on input line 51.
+(luatex.def)             Requested size: 315.48541pt x 231.47456pt.
+<Plots/composition9FULL.pdf, id=815, 462.528pt x 346.896pt>
+File: Plots/composition9FULL.pdf Graphic file (type pdf)
+<use Plots/composition9FULL.pdf>
+Package luatex.def Info: Plots/composition9FULL.pdf  used on input line 58.
+(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
+<Plots/compositionTenFULL.pdf, id=816, 462.528pt x 346.896pt>
+File: Plots/compositionTenFULL.pdf Graphic file (type pdf)
+<use Plots/compositionTenFULL.pdf>
+Package luatex.def Info: Plots/compositionTenFULL.pdf  used on input line 62.
+(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
+<Plots/NN_out_mixphA40.pdf, id=817, 569.12625pt x 417.56pt>
+File: Plots/NN_out_mixphA40.pdf Graphic file (type pdf)
+<use Plots/NN_out_mixphA40.pdf>
+Package luatex.def Info: Plots/NN_out_mixphA40.pdf  used on input line 73.
+(luatex.def)             Requested size: 276.04749pt x 202.54182pt.
+<Plots/composition9phA40.pdf, id=818, 462.528pt x 346.896pt>
+File: Plots/composition9phA40.pdf Graphic file (type pdf)
+<use Plots/composition9phA40.pdf>
+Package luatex.def Info: Plots/composition9phA40.pdf  used on input line 81.
+(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
+<Plots/compositionTenphA40.pdf, id=819, 462.528pt x 346.896pt>
+File: Plots/compositionTenphA40.pdf Graphic file (type pdf)
+<use Plots/compositionTenphA40.pdf>
+Package luatex.def Info: Plots/compositionTenphA40.pdf  used on input line 85.
+(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
+<Plots/NN_out_mixfjphA900.pdf, id=820, 569.12625pt x 417.56pt>
+File: Plots/NN_out_mixfjphA900.pdf Graphic file (type pdf)
+<use Plots/NN_out_mixfjphA900.pdf>
+Package luatex.def Info: Plots/NN_out_mixfjphA900.pdf  used on input line 95.
+(luatex.def)             Requested size: 276.04749pt x 202.54182pt.
+<Plots/composition9fjA900.pdf, id=821, 462.528pt x 346.896pt>
+File: Plots/composition9fjA900.pdf Graphic file (type pdf)
+<use Plots/composition9fjA900.pdf>
+Package luatex.def Info: Plots/composition9fjA900.pdf  used on input line 103.
+(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
+File: Plots/compositionTenphA40.pdf Graphic file (type pdf)
+<use Plots/compositionTenphA40.pdf>
+Package luatex.def Info: Plots/compositionTenphA40.pdf  used on input line 107.
+(luatex.def)             Requested size: 236.61555pt x 177.4651pt.
+<Plots/corrAll.pdf, id=822, 699.58865pt x 1683.28561pt>
 File: Plots/corrAll.pdf Graphic file (type pdf)
 <use Plots/corrAll.pdf>
-Package luatex.def Info: Plots/corrAll.pdf  used on input line 50.
+Package luatex.def Info: Plots/corrAll.pdf  used on input line 114.
 (luatex.def)             Requested size: 276.04749pt x 664.2099pt.
 
-LaTeX Warning: Float too large for page by 143.20966pt on input line 53.
+LaTeX Warning: Float too large for page by 143.20966pt on input line 117.
 
-) (./content/todo.tex [29
+) (./content/09_danksagung.tex [26
 
-] [30] [31<./Plots/corrAll.pdf>]
+] [27] [28<./Plots/composition9FULL.pdf><./Plots/compositionTenFULL.pdf>] [29<./Plots/NN_out_mixphA40.pdf>] [30<./Plots/composition9phA40.pdf><./Plots/compositionTenphA40.pdf>] [31<./Plots/NN_out_mixfjphA900.pdf>] [32<./Plots/composition9fjA900.pdf>] [33<./Plots/corrAll.pdf>]
 chapter 9.
-) (./content/a_anhang.tex) [32
+) (./content/a_anhang.tex) [34
 
 ]
 chapter without number
-[33
+[35
 
 
-] [34] (./content/eid_versicherung.tex)
+] [36] [37] [38
+
+
+] (./content/eid_versicherung.tex)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1692,32 +1694,32 @@ LaTeX Info: Redefining \sffamily on input line 43.
 LaTeX Info: Redefining \ttfamily on input line 43.
 )
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 03EB56F395A14002C51ABBFE679E66CE;35279.
+(rerunfilecheck)             Checksum: 020F5BB51940040D110D2D824E2D7B76;37315.
 
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: C873BBF9AB12C75C70755ECD7C4587C1;4686.
+(rerunfilecheck)             Checksum: B57F854E914168708CC48B08B97279C4;4703.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 38076 strings out of 478388
+ 38110 strings out of 478388
  100000,3417909 words of node,token memory allocated
- 859 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 33 attribute, 82 glue_spec, 33 attribute_list, 3 write, 17 pdf_action nodes
-   avail lists: 2:1441,3:528,4:272,5:385,6:114,7:7772,8:82,9:1198,10:21,11:563
- 56689 multiletter control sequences out of 65536+600000
- 178 fonts using 51089347 bytes
+ 895 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 36 attribute, 82 glue_spec, 36 attribute_list, 1 write, 22 pdf_action nodes
+   avail lists: 2:1919,3:509,4:272,5:385,6:112,7:7251,8:88,9:1383,10:18,11:547
+ 56710 multiletter control sequences out of 65536+600000
+ 178 fonts using 51088971 bytes
  122i,24n,118p,10663b,3548s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromanslant8-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (38 pages, 1376225 bytes).
+</home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromanslant8-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on thesis.pdf (42 pages, 1385687 bytes).
 
-PDF statistics: 1486 PDF objects out of 1728 (max. 8388607)
- 781 compressed objects within 8 object streams
- 121 named destinations out of 1000 (max. 131072)
+PDF statistics: 1553 PDF objects out of 1728 (max. 8388607)
+ 843 compressed objects within 9 object streams
+ 128 named destinations out of 1000 (max. 131072)
  185 words of extra memory for PDF output out of 10000 (max. 100000000)
 

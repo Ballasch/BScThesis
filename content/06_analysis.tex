@@ -62,6 +62,8 @@ The $fj\_e$ parameter is slightly less correlated than $fjph\_e$. This is due th
 \section{NN output distribution dependence on photon \texorpdfstring{$p_T^\gamma$}{pTGamma} and fjet+photon energy \texorpdfstring{$E_{fj\text{+}\gamma}$}{}}
 \label{sec:dependence}
 
+To accommodate for the page limit of this thesis, most Figures in this section are provided in the Appendix.
+
 In this section, two input variables are chosen to analyse the influence on the NN output further. In the first part of the analysis, an energy region for the input variables is chosen. Then, only events within that energy region are considered. This will be referred to as a "cut" throughout this section. 
 After the cut, the distribution of the NN output is plotted to determine any noticeable changes. Additionally, a threshold for the NN output is chosen, and events above the threshold are examined. The $tq\gamma$ above the threshold must not exceed a statistical error $\frac{N_\text{signal}}{\sqrt{N_\text{signal}}}$ of over $10\%$. 
 The composition of events above the threshold is then visualised and discussed. Finally, changes in signal and background compositions are examined. For simplicity and better sensitivity, only the $\geq 1$ forward jet region is considered in this analysis.
@@ -71,11 +73,18 @@ To compare with the NN output before any cut is applied, the Figure~\ref{fig:ful
 The first input variable that is to be analysed is the photon's transverse momentum $p_T^\gamma$. As the $tq\gamma$ process is sensitive to the top quark to photon coupling, analysing the output dependence of the momentum of the photon provides an excellent way to test this prediction. 
 The distribution of $p_T^\gamma$ is shown in \autoref{fig:ph_pt}. 
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{Plots/ph_pt.pdf}
+    \caption{Distribution of the transverse momentum of the photon $p_T^\gamma$.}
+    \label{fig:ph_pt}
+\end{figure}
+
 Results from \autoref{sec:corrvis} give a low correlation of $p_T^\gamma$ at around $5.8\%$ for the $tq\gamma$ sample in the $\geq 1\, fj$ region. The dependence of the NN output on $p_T^\gamma$ is therefore found not to be significant. 
 With the help of the distribution, it is chosen to cut $p_T^\gamma$ at $40\,\si{\giga\electronvolt}$. The positive correlation predicts that higher values for $p_T^\gamma$ result in a better signal-background discrimination in the NN output. 
 The NN output distribution for events with $p_T^\gamma \geq 40\,\si{\giga\electronvolt}$ is displayed in \autoref{fig:outputA40ph}. The composition after two different threshholds is shown in \autoref{fig:phptA40}.
 
-When comparing Figures \ref{fig:NNdistro} and \ref{fig:outputA40ph} it is noticeable that $S/B$ does increase for higher values of $p_T^\gamma$ but the different is not significant and is not examined further. 
+When comparing Figures \ref{fig:NNdistro2} and \ref{fig:outputA40ph} it is noticeable that $S/B$ does increase for higher values of $p_T^\gamma$ but the different is not significant and is not examined further. 
 More noticeable differences are seen when comparing Figures \ref{fig:full} and \ref{fig:phptA40}. Here, it can be clearly seen that the parcentage of $t\bar{t}$ in the background is substantially higher (jumps from $35.8\%$ to $47.8\%$). 
 This suggests that the $t\bar{t}$ has a $p_T^\gamma$ for the falsely reconstructed photon of this process. Without a deeper analysis, no more statements can be made on this incident. 
 In addition, the contributions of less signfiicant background processes, which are depicted in the category "other", do get suppressed. The $38.8\%$ background contribution of this category falls to $26\%$ for the $p_T^\gamma$ cut.
@@ -88,48 +97,6 @@ The high positive correlation of $E_{fj\text{+}\gamma}$ predicts a greater discr
 \autoref{fig:outputA900fjph_e}. It is clear that the $S/B$ ratio is signficiantly higher for $NN > 0.5$. These results confirm that strongly correlated variables have stronger influences on the signal-background discrimination of the NN.
 The composition of the events above the two different threshholds is depicted in \autoref{fig:fjph_eA900comp}. Here, there is no significant change seen in the composition of the main background as it was the case with the cut on $p_T^\gamma$. 
 
-
-\begin{figure}
-    \centering
-    \begin{subfigure}[b]{0.6\textwidth}
-       \includegraphics[width=1\linewidth]{Plots/composition9FULL.pdf}
-    \end{subfigure}
-    
-    \begin{subfigure}[b]{0.6\textwidth}
-       \includegraphics[width=1\linewidth]{Plots/compositionTenFULL.pdf}
-    \end{subfigure}
-    \caption{Composition of NN output for two different threshholds without any cuts applied. The right pie chart gives the composition without of the background.}
-    \label{fig:full}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.6\textwidth]{Plots/ph_pt.pdf}
-    \caption{Distribution of the transverse momentum of the photon $p_T^\gamma$.}
-    \label{fig:ph_pt}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\textwidth]{Plots/NN_out_mixphA40.pdf}
-    \caption{NN output distribution for the $p_T^\gamma \geq 40\,\si{\giga\electronvolt}$ region.}
-    \label{fig:outputA40ph}
-\end{figure} 
-
-\begin{figure}
-    \centering
-    \begin{subfigure}[b]{0.6\textwidth}
-       \includegraphics[width=1\linewidth]{Plots/composition9phA40.pdf}
-    \end{subfigure}
-    
-    \begin{subfigure}[b]{0.6\textwidth}
-       \includegraphics[width=1\linewidth]{Plots/compositionTenphA40.pdf}
-    \end{subfigure}
-    \caption{Composition of NN output for two different threshholds in the region $p_T^\gamma \geq 40\,\si{\giga\electronvolt}$. }
-    \label{fig:phptA40}
-\end{figure}
-
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{Plots/fjph_e.pdf}
@@ -137,23 +104,3 @@ The composition of the events above the two different threshholds is depicted in
     \label{fig:fjph_e}
 \end{figure} 
 
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\textwidth]{Plots/NN_out_mixfjphA900.pdf}
-    \caption{NN output distribution for the $E_{fj\text{+}\gamma} \geq 900\,\si{\giga\electronvolt}$ region.}
-    \label{fig:outputA900fjph_e}
-\end{figure} 
-
-\begin{figure}
-    \centering
-    \begin{subfigure}[b]{0.6\textwidth}
-       \includegraphics[width=1\linewidth]{Plots/composition9fjA900.pdf}
-    \end{subfigure}
-    
-    \begin{subfigure}[b]{0.6\textwidth}
-       \includegraphics[width=1\linewidth]{Plots/compositionTenphA40.pdf}
-    \end{subfigure}
-    \caption{Composition of NN output for two different threshholds in the region $E_{fj\text{+}\gamma} \geq 900\,\si{\giga\electronvolt}$. }
-    \label{fig:fjph_eA900comp}
-\end{figure}

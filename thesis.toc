@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Reconstruction of photons}{7}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Reconstruction of leptons}{8}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Reconstruction of electrons and muons}{8}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Jets}{8}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -52,26 +52,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Input features for the neural network}{14}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Performance and distribution of the NN output}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Performance and distribution of the NN output}{17}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Differential analysis of the NN output}{18}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Differential analysis of the NN output}{19}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Weighted correlations of input features with the NN output}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Weighted correlations of input features with the NN output}{19}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Motivation for calculating correlations}{18}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.1}Motivation for calculating correlations}{19}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Steps of calculation}{18}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.2}Steps of calculation}{19}{subsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}Results of the correlation calculations}{19}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.3}Results of the correlation calculations}{20}{subsection.6.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}NN output distribution dependence on photon $p_T^\mitgamma $ and fjet+photon energy $E_{fj\text {+}\mitgamma }$}{21}{section.6.2}%
+\contentsline {section}{\numberline {6.2}NN output distribution dependence on photon $p_T^\mitgamma $ and fjet+photon energy $E_{fj\text {+}\mitgamma }$}{22}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{28}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Conclusion}{25}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Appendix}{29}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Appendix}{26}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}TO DO}{32}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Danksagung}{34}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{33}{chapter*.23}%
+\contentsline {chapter}{\nonumberline Bibliography}{35}{chapter*.25}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

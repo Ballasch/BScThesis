@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{ttgamma}{article}{}
+    \entry{TightLH}{article}{}
       \name{author}{10}{}{%
         {{hash=b0c40621433afa1602a7556db78c2a27}{%
            family={Aaboud},
@@ -36,6 +36,11 @@
            familyi={A\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod}}}%
+        {{hash=cb7d0f505e1a9bf19af4a06903229fb6}{%
+           family={Abdallah},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
         {{hash=1c424a151dc0ac1b5dabeb624fcdc69f}{%
            family={Abdinov},
            familyi={A\bibinitperiod},
@@ -46,11 +51,6 @@
            familyi={A\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=1291ecc48177f6e1bdc612065e42c733}{%
-           family={Abidi},
-           familyi={A\bibinitperiod},
-           given={S.\bibnamedelimi H.},
-           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=21eebd79b6eee7aae47b8b2cc22eb0d6}{%
            family={AbouZeid},
            familyi={A\bibinitperiod},
@@ -77,30 +77,200 @@
         {Business Media LLC}%
       }
       \strng{namehash}{a4ac0b7da088d421a760716f9c20aec2}
-      \strng{fullhash}{b309e802d1ad9aa198d89f50c37bea01}
+      \strng{fullhash}{7dd43993e54720c3739d9d3c88498f23}
       \strng{bibnamehash}{a4ac0b7da088d421a760716f9c20aec2}
       \strng{authorbibnamehash}{a4ac0b7da088d421a760716f9c20aec2}
       \strng{authornamehash}{a4ac0b7da088d421a760716f9c20aec2}
-      \strng{authorfullhash}{b309e802d1ad9aa198d89f50c37bea01}
+      \strng{authorfullhash}{7dd43993e54720c3739d9d3c88498f23}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1029-8479}
-      \field{journaltitle}{Journal of High Energy Physics}
-      \field{month}{11}
-      \field{number}{11}
-      \field{title}{Measurement of the $t\bar{t}\gamma$ production cross section in proton-proton collisions at $ \sqrt{s}=8 $ TeV with the ATLAS detector}
-      \field{volume}{2017}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Electron efficiency measurements with the ATLAS detector using 2012 LHC proton–proton collision data}
+      \field{volume}{77}
       \field{year}{2017}
       \verb{doi}
-      \verb 10.1007/jhep11(2017)086
+      \verb 10.1140/epjc/s10052-017-4756-2
       \endverb
       \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/JHEP11(2017)086
+      \verb http://dx.doi.org/10.1140/epjc/s10052-017-4756-2
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1007/JHEP11(2017)086
+      \verb http://dx.doi.org/10.1140/epjc/s10052-017-4756-2
+      \endverb
+    \endentry
+    \entry{Medium}{article}{}
+      \name{author}{10}{}{%
+        {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6ff2c6c5b44129d4cfb6389e75869ea6}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cb7d0f505e1a9bf19af4a06903229fb6}{%
+           family={Abdallah},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c424a151dc0ac1b5dabeb624fcdc69f}{%
+           family={Abdinov},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b67532a542be432e5b35697399f95580}{%
+           family={Abeloos},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=809127c3ce02bf07d68aa7856943313b}{%
+           family={Aben},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=98328a0f9705f50b201baec34f95b384}{%
+           family={Abolins},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=21eebd79b6eee7aae47b8b2cc22eb0d6}{%
+           family={AbouZeid},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=afb24a9e3098c6bbffcae02436bb0939}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi L.},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{fullhash}{975f1a3cc89be144d508d05a21083741}
+      \strng{bibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorbibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authornamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorfullhash}{975f1a3cc89be144d508d05a21083741}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Muon reconstruction performance of the ATLAS detector in proton–proton collision data at $\sqrt{s} =13$ TeV}
+      \field{volume}{76}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-016-4120-y
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-016-4120-y
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-016-4120-y
+      \endverb
+    \endentry
+    \entry{HADCal}{article}{}
+      \name{author}{10}{}{%
+        {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6ff2c6c5b44129d4cfb6389e75869ea6}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cb7d0f505e1a9bf19af4a06903229fb6}{%
+           family={Abdallah},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c424a151dc0ac1b5dabeb624fcdc69f}{%
+           family={Abdinov},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=809127c3ce02bf07d68aa7856943313b}{%
+           family={Aben},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=98328a0f9705f50b201baec34f95b384}{%
+           family={Abolins},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=21eebd79b6eee7aae47b8b2cc22eb0d6}{%
+           family={AbouZeid},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9802d996e1c79979497e6b2566bc0358}{%
+           family={Abramowicz},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=12550aeae438776d8b722ab142771b23}{%
+           family={Abreu},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{fullhash}{a8f2fed0d15038c463e876755ffa3689}
+      \strng{bibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorbibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authornamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorfullhash}{a8f2fed0d15038c463e876755ffa3689}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Topological cell clustering in the ATLAS calorimeters and its performance in LHC Run 1}
+      \field{volume}{77}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-5004-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-017-5004-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-017-5004-5
       \endverb
     \endentry
     \entry{singletop2}{article}{}
@@ -6376,6 +6546,64 @@
       \endverb
       \keyw{Simulation,Particle interactions,Geometrical modelling,Software engineering,Object-oriented technology,Distributed software development}
     \endentry
+    \entry{innerdetector}{book}{}
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{series}{Technical design report. ATLAS}
+      \field{title}{{ATLAS inner detector: Technical Design Report, 1}}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/331063
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/331063
+      \endverb
+    \endentry
+    \entry{LHC}{book}{}
+      \name{author}{2}{}{%
+        {{hash=520b5fbbc5758f39a228dcc48cf582f6}{%
+           family={Breskin},
+           familyi={B\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ab6c937544142b29913658046192f97c}{%
+           family={Voss},
+           familyi={V\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{1e0d711d232d6f08d6046620fbb20151}
+      \strng{fullhash}{1e0d711d232d6f08d6046620fbb20151}
+      \strng{bibnamehash}{1e0d711d232d6f08d6046620fbb20151}
+      \strng{authorbibnamehash}{1e0d711d232d6f08d6046620fbb20151}
+      \strng{authornamehash}{1e0d711d232d6f08d6046620fbb20151}
+      \strng{authorfullhash}{1e0d711d232d6f08d6046620fbb20151}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The CERN Large Hadron Collider: Accelerator and Experiments}}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1244506
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1244506
+      \endverb
+    \endentry
     \entry{sm_table}{online}{}
       \name{author}{1}{}{%
         {{hash=b7295d49f625e7cbd4dd272953c70b7b}{%
@@ -6519,6 +6747,66 @@
       \endverb
       \verb{url}
       \verb https://github.com/fchollet/keras
+      \endverb
+    \endentry
+    \entry{toprecon}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ca73974225a4f2386cfb27d273eb99cf}{%
+           family={Chwalek},
+           familyi={C\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca73974225a4f2386cfb27d273eb99cf}
+      \strng{fullhash}{ca73974225a4f2386cfb27d273eb99cf}
+      \strng{bibnamehash}{ca73974225a4f2386cfb27d273eb99cf}
+      \strng{authorbibnamehash}{ca73974225a4f2386cfb27d273eb99cf}
+      \strng{authornamehash}{ca73974225a4f2386cfb27d273eb99cf}
+      \strng{authorfullhash}{ca73974225a4f2386cfb27d273eb99cf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Presented 12 Feb 2010}
+      \field{title}{{Messung der W-Boson-Helizitätsanteile in Top-Quark-Zerfällen mit dem CDF II Experiment und Studien zu einer frühen Messung des ttbar-Wirkungsquerschnitts mit dem CMS Experiment}}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1416031
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1416031
+      \endverb
+    \endentry
+    \entry{jetclean}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a3364242a05dc5a80a93fa55804031af}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={ATLAS},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e84a34dfb7178ba15dfe7466c68b7d61}{%
+           family={Caprini},
+           familyi={C\bibinitperiod},
+           given={Irinel},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{89fed61e2c9bfe44ab8dfa1ac79a7109}
+      \strng{fullhash}{89fed61e2c9bfe44ab8dfa1ac79a7109}
+      \strng{bibnamehash}{89fed61e2c9bfe44ab8dfa1ac79a7109}
+      \strng{authorbibnamehash}{89fed61e2c9bfe44ab8dfa1ac79a7109}
+      \strng{authornamehash}{89fed61e2c9bfe44ab8dfa1ac79a7109}
+      \strng{authorfullhash}{89fed61e2c9bfe44ab8dfa1ac79a7109}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JINST}
+      \field{month}{05}
+      \field{title}{Monitoring and data quality assessment of the ATLAS liquid argon calorimeter}
+      \field{volume}{9}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1088/1748-0221/9/07/P07024
       \endverb
     \endentry
     \entry{Collaboration_2008}{article}{}
@@ -16888,6 +17176,50 @@
       \verb https://cds.cern.ch/record/2255226
       \endverb
     \endentry
+    \entry{distcorr}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1eb1e152946ef9945a3a8aa04ccfc4e}{%
+           family={Kasieczka},
+           familyi={K\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8d8fa3202efe298b39493bd8025ecd85}{%
+           family={Shih},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{39b639b09250433ddbe8f621eeabefbf}
+      \strng{fullhash}{39b639b09250433ddbe8f621eeabefbf}
+      \strng{bibnamehash}{39b639b09250433ddbe8f621eeabefbf}
+      \strng{authorbibnamehash}{39b639b09250433ddbe8f621eeabefbf}
+      \strng{authornamehash}{39b639b09250433ddbe8f621eeabefbf}
+      \strng{authorfullhash}{39b639b09250433ddbe8f621eeabefbf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Robust Jet Classifiers through Distance Correlation}
+      \field{volume}{125}
+      \field{year}{2020}
+      \field{pages}{35\bibrangedash 38}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.125.122001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.125.122001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.125.122001
+      \endverb
+    \endentry
     \entry{Adam}{misc}{}
       \name{author}{2}{}{%
         {{hash=b6fbd171848aad4edf3925543f1f1522}{%
@@ -16917,6 +17249,87 @@
       \field{year}{2017}
       \verb{eprint}
       \verb 1412.6980
+      \endverb
+    \endentry
+    \entry{EMCal}{report}{}
+      \name{author}{10}{}{%
+        {{hash=01ffb6cadbcb4e0ab4fe59d5dc810be3}{%
+           family={Lampl},
+           familyi={L\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b1f026cf9b63fc2e41220846c390be17}{%
+           family={Laplace},
+           familyi={L\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4527947e259147a66a8f3251cce55e37}{%
+           family={Lelas},
+           familyi={L\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e6fa385df1f3ba09206fc6cef18872f0}{%
+           family={Loch},
+           familyi={L\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f28ab363a1309d536e9c16372b11c274}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3f78299e3e9e13252cfa2c9989b04fa7}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4ea0f031eabc426030bc3e5391f833fa}{%
+           family={Rajagopalan},
+           familyi={R\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e8b7502b0d1b2a657efd1c2b45cd2518}{%
+           family={Rousseau},
+           familyi={R\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=04f25ef56145796479b1d816b69c6344}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ec35caaef2566512c710b1d9675ce413}{%
+           family={Unal},
+           familyi={U\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{da8587ad4b1559c07e0303f03611d75f}
+      \strng{fullhash}{bc75f94111b3b727205cc48153d44158}
+      \strng{bibnamehash}{da8587ad4b1559c07e0303f03611d75f}
+      \strng{authorbibnamehash}{da8587ad4b1559c07e0303f03611d75f}
+      \strng{authornamehash}{da8587ad4b1559c07e0303f03611d75f}
+      \strng{authorfullhash}{bc75f94111b3b727205cc48153d44158}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{note}{All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-LARG-PUB-2008-002}
+      \field{title}{{Calorimeter Clustering Algorithms: Description and Performance}}
+      \field{type}{techreport}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1099735
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1099735
       \endverb
     \endentry
     \entry{tensorflow}{misc}{}
