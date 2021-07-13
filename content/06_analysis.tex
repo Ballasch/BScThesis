@@ -1,4 +1,4 @@
-\chapter{Differnetial analysis of the NN output}
+\chapter{Differential analysis of the NN output}
 %\chapter{Analysis of the effects of different event features on the neural network output}
 \section{Weighted correlations of input features with the NN output}
 
@@ -6,8 +6,8 @@
 Correlations between input variables and the neural network's provide an overview of what the NN has "learned". 
 They represent which input variables have the strongest influence on the output of the NN. 
 The level of influence of any input variable is determined during the training phase of the NN. For example, suppose the value of a specific input variable turns out to be an essential parameter in the discrimination of the signal from the background. 
-In that case, this variable will acquire a high correlation after the training process. 
-Consequently, highly correlated variables would provide a critical basis to determine which properties of the $tq\gamma$ process help in understanding the photon to top quark coupling.  \\
+In that case, this variable will acquire a strong correlation after the training process. 
+Consequently, strongly correlated variables would provide a critical basis to determine which properties of the $tq\gamma$ process help in understanding the photon to top quark coupling.  \\
 
 \subsection{Steps of calculation}
 
@@ -35,59 +35,17 @@ Finally, the correlation of measured data is also determined. The final result i
 The result of the calculations is visualised and discussed in Section \ref{sec:corrvis}.
 
 
-\subsection{Visualisations of calculated correlations}
+\subsection{Results of the correlation calculations}
 \label{sec:corrvis}
-The results of the calculations are listed in Table \ref{tab:corrAll}. This table also contains some correlations of features that are not part of the input of the NN in the given region.  
+The results of the calculations are listed in Table \ref{tab:corrAll} of the Appendix. This table also contains some correlations of features that are not part of the input of the NN in the given region.  
 Figure \ref{fig:corr0fj} and \autoref{fig:corr1fj} display correlations of the input features in order for both forward jet regions respectively. 
 
-\textbf{Spreche über einige variablen und erkläre warum Sie stark oder weniger stark korreliert sind. Dann muss auch ph\_pt angesprochen werden. Anschließend kann fjph\_e mit fj\_e verglichen werden.}
+The Figures show that forward jet ($fj$) feautures, specifically the $fj+photon$ energy ($fjph\_e$) and the $fj$ flag ($fj\_flag$), have the strongest correlation. This confirms expectations as $S/B$ is larger in the $\geq 1\, fj$ region. 
+Furthermore, it is clear that some input feautures have no significant correlation at all. However, it is important to keep these feautures as part of the NN input as correlations among input variables significantly effect the NN output too. 
+One more noteworthy aspect, is that the correlation of the forward jet energy parameter ($fj\_e$ in \autoref{fig:corrAll} of the Appendix) has similar correlations to the $fj+photon$ energy ($fjph\_e$) input feature. 
+The $fj\_e$ parameter is slightly less correlated than $fjph\_e$. This is due the additional small correlation of the photon energy in $fjph\_e$. This aspect gives strong evidence for the correctness of the calculations. 
 
-\begin{table}[htbp]
-    \centering
-    \begin{tabular}{c|c c c|c c c}
-        \toprule
-        {}&\multicolumn{3}{c}{$0\, fj$ region}&\multicolumn{3}{c}{$\geq 1\, fj$ region}\\
-        Event parameter &  Background &  $tq\gamma$ &  Data &  Background &  $tq\gamma$ &  Data \\
-        \midrule
-        top\_m                            & -0.51 &      0.01 &   0.03 & -0.41 &      0.06 &   0.04 \\ \hline
-        Wbsn\_e                           & -0.35 &     -0.02 &   0.00 & -0.38 &      0.00 &  -0.00 \\ \hline
-        blep\_m                           & -0.39 &      0.01 &   0.01 & -0.33 &      0.02 &   0.01 \\ \hline
-        topph\_ctheta                     & -0.28 &     -0.00 &     & -0.33 &     -0.01 &   0.02 \\ \hline
-        transMassWb                      & -0.47 &     -0.00 &     & -0.33 &     -0.02 &  -0.02 \\ \hline
-        lep1\_pt                          & -0.36 &        &     & -0.32 &      0.54 &   0.43 \\ \hline
-        HT                               & -0.21 &     -0.24 &  -0.35 & -0.30 &     -0.22 &  -0.32 \\ \hline
-        met\_met                          & -0.26 &     -0.05 &   0.02 & -0.26 &      0.00 &  -0.01 \\ \hline
-        topph\_pt                         & -0.02 &     -0.12 &  -0.14 & -0.18 &     -0.06 &  -0.03 \\ \hline
-        blep\_dr                          & -0.15 &     -0.06 &  -0.14 & -0.14 &     -0.05 &  -0.07 \\ \hline
-        bph\_pt                           & -0.08 &     -0.03 &   0.02 & -0.13 &      0.00 &   0.02 \\ \hline
-        transMassWph                     & -0.17 &      0.00 &  -0.00 & -0.10 &      0.00 &   0.02 \\ \hline
-        fjph\_dr                          &  0.00 &      0.18 &   0.19 & -0.06 &      0.14 &   0.15 \\ \hline
-        lbj\_pt                           & -0.12 &     -0.32 &  -0.50 & -0.05 &     -0.24 &  -0.42 \\ \hline
-        fjph\_deta                        &  0.00 &     -0.36 &  -0.29 & -0.03 &     -0.29 &  -0.33 \\ \hline
-        fj\_phi                           & -0.00 &     -0.09 &  -0.08 & -0.03 &     -0.11 &  -0.19 \\ \hline
-        lep1\_eta                         &  0.02 &     -0.30 &  -0.37 & -0.02 &     -0.28 &  -0.39 \\ \hline
-        met\_phi                          &  0.00 &      0.27 &   0.14 & -0.01 &      0.25 &   0.18 \\ \hline
-        lep1\_id                          & -0.16 &     -0.27 &  -0.43 & -0.00 &     -0.20 &  -0.35 \\ \hline
-        ph\_eta                           &  0.00 &        &     &  0.00 &      0.45 &   0.22 \\ \hline
-        ph\_phi                           & -0.00 &     -0.05 &  -0.09 &  0.01 &     -0.08 &  -0.13 \\ \hline
-        fj\_eta                           & -0.00 &        &     &  0.01 &     -0.05 &  -0.01 \\ \hline
-        lbj\_phi                          & -0.00 &      0.07 &   0.03 &  0.01 &      0.45 &   0.28 \\ \hline
-        lbj\_eta                          &  0.02 &     -0.02 &   0.00 &  0.02 &     -0.16 &  -0.09 \\ \hline
-        fjph\_m                           &    &     -0.02 &   0.00 &  0.04 &     -0.16 &  -0.08 \\ \hline
-        ph\_pt                            &  0.06 &        &     &  0.08 &      0.29 &   0.14 \\ \hline
-        fjph\_ctheta                      &    &      0.25 &   0.15 &  0.08 &      0.12 &   0.12 \\ \hline
-        lepph\_dr                         &  0.10 &     -0.03 &  -0.19 &  0.11 &     -0.01 &  -0.14 \\ \hline
-        lbj\_tagWeightBin &  0.12 &     -0.16 &  -0.21 &  0.13 &     -0.17 &  -0.25 \\ 
-        \_DL1r\_Continuous &&&&&&\\ \hline
-        bfj\_m                            &    &      0.02 &  -0.00 &  0.19 &     -0.01 &   0.00 \\ \hline
-        bph\_m                            &  0.19 &     -0.20 &  -0.24 &  0.25 &     -0.26 &  -0.34 \\ \hline
-        fjph\_e                           &  0.04 &     -0.07 &  -0.13 &  0.27 &     -0.03 &  -0.10 \\ \hline
-        fjet\_flag                        &    &     -0.28 &  -0.42 &  0.37 &     -0.19 &  -0.31 \\ \hline
-        \bottomrule
-        \end{tabular}
-    \caption{List of correlations between samples and the NN output in the zero forward jet region as well as samples in the $\geq 1$ forward jet region.}
-    \label{tab:corrAll}
-\end{table}
+
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{Plots/corr0fjvariables.pdf}
@@ -105,10 +63,32 @@ Figure \ref{fig:corr0fj} and \autoref{fig:corr1fj} display correlations of the i
 \label{sec:dependence}
 
 In this section, two input variables are chosen to analyse the influence on the NN output further. In the first part of the analysis, an energy region for the input variables is chosen. Then, only events within that energy region are considered. This will be referred to as a "cut" throughout this section. 
-After the cut, the distribution of the NN output is plotted to determine any noticeable changes. Additionally, a threshold for the NN output is chosen, and every event above the threshold is considered as a signal. The signal above the threshold must not exceed a statistical error $\frac{N_\text{signal}}{\sqrt{N_\text{signal}}}$ of over $10\%$. 
-The composition of events above the threshold is then visualised and discussed. Changes in signal and background compositions are examined. For simplicity, only the $\geq 1$ forward jet region is considered in this analysis.
+After the cut, the distribution of the NN output is plotted to determine any noticeable changes. Additionally, a threshold for the NN output is chosen, and events above the threshold are examined. The $tq\gamma$ above the threshold must not exceed a statistical error $\frac{N_\text{signal}}{\sqrt{N_\text{signal}}}$ of over $10\%$. 
+The composition of events above the threshold is then visualised and discussed. Finally, changes in signal and background compositions are examined. For simplicity and better sensitivity, only the $\geq 1$ forward jet region is considered in this analysis.
 
-To compare with the NN output before any cut is applied, the Figure~\ref{fig:full} gives the composition of NN output for two different threshholds. One at $NN = 0.9$ and the other at the highest possible threshhold before the statistical error becomes too high.
+To compare with the NN output before any cut is applied, the Figure~\ref{fig:full} gives the composition of the NN output for two different threshholds. One at $NN = 0.9$ and the other at the highest possible threshhold before the statistical error becomes too high. The same thresholds are used in other composition plots of this analysis. 
+
+The first input variable that is to be analysed is the photon's transverse momentum $p_T^\gamma$. As the $tq\gamma$ process is sensitive to the top quark to photon coupling, analysing the output dependence of the momentum of the photon provides an excellent way to test this prediction. 
+The distribution of $p_T^\gamma$ is shown in \autoref{fig:ph_pt}. 
+
+Results from \autoref{sec:corrvis} give a low correlation of $p_T^\gamma$ at around $5.8\%$ for the $tq\gamma$ sample in the $\geq 1\, fj$ region. The dependence of the NN output on $p_T^\gamma$ is therefore found not to be significant. 
+With the help of the distribution, it is chosen to cut $p_T^\gamma$ at $40\,\si{\giga\electronvolt}$. The positive correlation predicts that higher values for $p_T^\gamma$ result in a better signal-background discrimination in the NN output. 
+The NN output distribution for events with $p_T^\gamma \geq 40\,\si{\giga\electronvolt}$ is displayed in \autoref{fig:outputA40ph}. The composition after two different threshholds is shown in \autoref{fig:phptA40}.
+
+When comparing Figures \ref{fig:NNdistro} and \ref{fig:outputA40ph} it is noticeable that $S/B$ does increase for higher values of $p_T^\gamma$ but the different is not significant and is not examined further. 
+More noticeable differences are seen when comparing Figures \ref{fig:full} and \ref{fig:phptA40}. Here, it can be clearly seen that the parcentage of $t\bar{t}$ in the background is substantially higher (jumps from $35.8\%$ to $47.8\%$). 
+This suggests that the $t\bar{t}$ has a $p_T^\gamma$ for the falsely reconstructed photon of this process. Without a deeper analysis, no more statements can be made on this incident. 
+In addition, the contributions of less signfiicant background processes, which are depicted in the category "other", do get suppressed. The $38.8\%$ background contribution of this category falls to $26\%$ for the $p_T^\gamma$ cut.
+
+The second input variable is the sum of the photon and forward jet energies $E_{fj\text{+}\gamma}$. This input feature has the second most strongest correlation with the NN output for the signal sample at around $44.99\%$. 
+Because of its high correlation, $E_{fj\text{+}\gamma}$ is an important candidate variable that may be essential in the understanding of the top+photon coupling. It is also important to analyse a strongly correlated variable alongside a weakly correlated variable to test nature of the NN output and variables at different limits.
+
+The distribution of $E_{fj\text{+}\gamma}$ is shown in \autoref{fig:fjph_e}. $E_{fj\text{+}\gamma}$ is chosen to be cut to the region $E_{fj\text{+}\gamma} \geq 900\,\si{\giga\electronvolt}$. 
+The high positive correlation of $E_{fj\text{+}\gamma}$ predicts a greater discrimination between signal and background for larger energy values the variable. This is verified by the NN output distribution after the cut in 
+\autoref{fig:outputA900fjph_e}. It is clear that the $S/B$ ratio is signficiantly higher for $NN > 0.5$. These results confirm that strongly correlated variables have stronger influences on the signal-background discrimination of the NN.
+The composition of the events above the two different threshholds is depicted in \autoref{fig:fjph_eA900comp}. Here, there is no significant change seen in the composition of the main background as it was the case with the cut on $p_T^\gamma$. 
+
+
 \begin{figure}
     \centering
     \begin{subfigure}[b]{0.6\textwidth}
@@ -122,20 +102,13 @@ To compare with the NN output before any cut is applied, the Figure~\ref{fig:ful
     \label{fig:full}
 \end{figure}
 
-The first input variable that is to be analysed is the transverse momentum of the photon $p_T^\gamma$. As the $tq\gamma$ process is sensitive to the top quark to photon coupling, analysing the output dependence of the momentum of the photon provides a good way to test this prediction. 
-Results from \autoref{sec:corrvis} give a low correlation of $p_T^\gamma$ at around $15.5\%$ in the $\geq 1\, fj$ region. The dependence of the NN output on $p_T^\gamma$ is therefore found not to be significant. The composition still remains of interest. 
 
-The distribution of $p_T^\gamma$ is shown in \autoref{fig:ph_pt}. 
-
-\begin{figure}[htbp]
+\begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{Plots/ph_pt.pdf}
     \caption{Distribution of the transverse momentum of the photon $p_T^\gamma$.}
     \label{fig:ph_pt}
 \end{figure}
-
-With the help of the distribution it is chosen to cut $p_T^\gamma$ at $40\,\si{\giga\electronvolt}$. The positive correlation predicts that higher $p_T^\gamma$ result in a better signal-background discrimination in the NN output. 
-The NN output distribution for events with $p_T^\gamma \geq 40\,\si{\giga\electronvolt}$ is displayed in \autoref{fig:outputA40ph}. The composition after two different threshholds is shown in \autoref{fig:phptA40}.
 
 \begin{figure}
     \centering
@@ -157,15 +130,13 @@ The NN output distribution for events with $p_T^\gamma \geq 40\,\si{\giga\electr
     \label{fig:phptA40}
 \end{figure}
 
-The distribution of $E_{fj\text{+}\gamma}$ is shown in \autoref{fig:fjph_e}. $E_{fj\text{+}\gamma}$ is chosen to be cut to the region $E_{fj\text{+}\gamma} \geq 900\,\si{\giga\electronvolt}$. 
-Significant correlation 
-
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{Plots/fjph_e.pdf}
     \caption{Distribution of the forward jet + photon energy $E_{fj\text{+}\gamma}$.}
     \label{fig:fjph_e}
 \end{figure} 
+
 
 \begin{figure}
     \centering
